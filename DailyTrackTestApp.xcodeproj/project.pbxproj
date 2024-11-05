@@ -13,6 +13,8 @@
 		93FE11C52CDA5B9200D674BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11C42CDA5B9200D674BC /* Base */; };
 		93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11C62CDA5B9300D674BC /* Assets.xcassets */; };
 		93FE11CA2CDA5B9300D674BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11C92CDA5B9300D674BC /* Base */; };
+		93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11DE2CDA81EC00D674BC /* SplashViewController.swift */; };
+		93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11DF2CDA81EC00D674BC /* SplashViewController.xib */; };
 		993CFE2E592DFCEE1AFD606B /* Pods_DailyTrackTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016C9567490F9ADC683AD53D /* Pods_DailyTrackTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		93FE11C62CDA5B9300D674BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93FE11C92CDA5B9300D674BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93FE11CB2CDA5B9300D674BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FE11DE2CDA81EC00D674BC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		93FE11DF2CDA81EC00D674BC /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		F26FEAEB4404483A93E013DC /* Pods-DailyTrackTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyTrackTestApp.debug.xcconfig"; path = "Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,9 @@
 		93FE11BC2CDA5B9200D674BC /* DailyTrackTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				93FE11D82CDA816A00D674BC /* Model */,
+				93FE11D72CDA816100D674BC /* Views */,
+				93FE11D62CDA814D00D674BC /* Controllers */,
 				93FE11D22CDA5D5100D674BC /* Resources */,
 				93FE11CB2CDA5B9300D674BC /* Info.plist */,
 			);
@@ -89,6 +96,70 @@
 				93FE11C82CDA5B9300D674BC /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		93FE11D62CDA814D00D674BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93FE11DD2CDA81BF00D674BC /* Tabbar */,
+				93FE11DC2CDA81AB00D674BC /* HomeViewController */,
+				93FE11DB2CDA819300D674BC /* SignUpViewController */,
+				93FE11DA2CDA818100D674BC /* LoginViewController */,
+				93FE11D92CDA817100D674BC /* SplashViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		93FE11D72CDA816100D674BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93FE11D82CDA816A00D674BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93FE11D92CDA817100D674BC /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FE11DE2CDA81EC00D674BC /* SplashViewController.swift */,
+				93FE11DF2CDA81EC00D674BC /* SplashViewController.xib */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		93FE11DA2CDA818100D674BC /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		93FE11DB2CDA819300D674BC /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		93FE11DC2CDA81AB00D674BC /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomeViewController;
+			path = "HomeViewControllẻ";
+			sourceTree = "<group>";
+		};
+		93FE11DD2CDA81BF00D674BC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 		F0445EADFBA4249E5BE4AA93 /* Frameworks */ = {
@@ -161,6 +232,7 @@
 				93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */,
 				93FE11CA2CDA5B9300D674BC /* Base in Resources */,
 				93FE11C52CDA5B9200D674BC /* Base in Resources */,
+				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +271,7 @@
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
 				93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */,
 				93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */,
+				93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
