@@ -72,9 +72,6 @@
 		93FE11BC2CDA5B9200D674BC /* DailyTrackTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				93FE11D52CDA5DB000D674BC /* Controllers */,
-				93FE11D42CDA5DAB00D674BC /* Model */,
-				93FE11D32CDA5D9E00D674BC /* Views */,
 				93FE11D22CDA5D5100D674BC /* Resources */,
 				93FE11CB2CDA5B9300D674BC /* Info.plist */,
 			);
@@ -92,27 +89,6 @@
 				93FE11C82CDA5B9300D674BC /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		93FE11D32CDA5D9E00D674BC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		93FE11D42CDA5DAB00D674BC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		93FE11D52CDA5DB000D674BC /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		F0445EADFBA4249E5BE4AA93 /* Frameworks */ = {
