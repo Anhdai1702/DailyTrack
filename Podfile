@@ -6,5 +6,17 @@ target 'DailyTrackTestApp' do
   use_frameworks!
 
   # Pods for DailyTrackTestApp
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Realm'
+  pod 'RealmSwift'
+  pod 'lottie-ios'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+  pod 'FirebaseRemoteConfig'
+  pod 'TTTAttributedLabel'
+  pod 'NVActivityIndicatorView'
+  pod 'Mixpanel-swift'
 
 end
