@@ -15,6 +15,22 @@
 		93FE11CA2CDA5B9300D674BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11C92CDA5B9300D674BC /* Base */; };
 		93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11DE2CDA81EC00D674BC /* SplashViewController.swift */; };
 		93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11DF2CDA81EC00D674BC /* SplashViewController.xib */; };
+		93FE11EF2CDA880700D674BC /* DefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11E32CDA880700D674BC /* DefaultStorage.swift */; };
+		93FE11F12CDA880700D674BC /* Extension-TableViewRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11E72CDA880700D674BC /* Extension-TableViewRegister.swift */; };
+		93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11E82CDA880700D674BC /* Extension-UIAlert.swift */; };
+		93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11E92CDA880700D674BC /* UIBezierPath+createCurve.swift */; };
+		93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11EA2CDA880700D674BC /* UIColor+Extension.swift */; };
+		93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11EB2CDA880700D674BC /* UIImage+Extension.swift */; };
+		93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11EC2CDA880700D674BC /* UIView+Border.swift */; };
+		93FE11F72CDA880700D674BC /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11ED2CDA880700D674BC /* UIView+Radius.swift */; };
+		93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11F82CDA885800D674BC /* LoginViewController.swift */; };
+		93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11F92CDA885800D674BC /* LoginViewController.xib */; };
+		93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11FC2CDA886A00D674BC /* SignUpViewController.swift */; };
+		93FE11FF2CDA886A00D674BC /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE11FD2CDA886A00D674BC /* SignUpViewController.xib */; };
+		93FE12022CDA888D00D674BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE12002CDA888D00D674BC /* HomeViewController.swift */; };
+		93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE12012CDA888D00D674BC /* HomeViewController.xib */; };
+		93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE12052CDA8A1700D674BC /* OnboardingViewController.swift */; };
+		93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE12062CDA8A1700D674BC /* OnboardingViewController.xib */; };
 		993CFE2E592DFCEE1AFD606B /* Pods_DailyTrackTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016C9567490F9ADC683AD53D /* Pods_DailyTrackTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +47,22 @@
 		93FE11CB2CDA5B9300D674BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93FE11DE2CDA81EC00D674BC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		93FE11DF2CDA81EC00D674BC /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		93FE11E32CDA880700D674BC /* DefaultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultStorage.swift; sourceTree = "<group>"; };
+		93FE11E72CDA880700D674BC /* Extension-TableViewRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension-TableViewRegister.swift"; sourceTree = "<group>"; };
+		93FE11E82CDA880700D674BC /* Extension-UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension-UIAlert.swift"; sourceTree = "<group>"; };
+		93FE11E92CDA880700D674BC /* UIBezierPath+createCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+createCurve.swift"; sourceTree = "<group>"; };
+		93FE11EA2CDA880700D674BC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		93FE11EB2CDA880700D674BC /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		93FE11EC2CDA880700D674BC /* UIView+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
+		93FE11ED2CDA880700D674BC /* UIView+Radius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Radius.swift"; sourceTree = "<group>"; };
+		93FE11F82CDA885800D674BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93FE11F92CDA885800D674BC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		93FE11FC2CDA886A00D674BC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		93FE11FD2CDA886A00D674BC /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		93FE12002CDA888D00D674BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93FE12012CDA888D00D674BC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		93FE12052CDA8A1700D674BC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		93FE12062CDA8A1700D674BC /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 		F26FEAEB4404483A93E013DC /* Pods-DailyTrackTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyTrackTestApp.debug.xcconfig"; path = "Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +108,7 @@
 		93FE11BC2CDA5B9200D674BC /* DailyTrackTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				93FE11E22CDA87E200D674BC /* Helper */,
 				93FE11D82CDA816A00D674BC /* Model */,
 				93FE11D72CDA816100D674BC /* Views */,
 				93FE11D62CDA814D00D674BC /* Controllers */,
@@ -101,6 +134,7 @@
 		93FE11D62CDA814D00D674BC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				93FE12042CDA89E100D674BC /* OnboardingViewController */,
 				93FE11DD2CDA81BF00D674BC /* Tabbar */,
 				93FE11DC2CDA81AB00D674BC /* HomeViewController */,
 				93FE11DB2CDA819300D674BC /* SignUpViewController */,
@@ -136,6 +170,8 @@
 		93FE11DA2CDA818100D674BC /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				93FE11F82CDA885800D674BC /* LoginViewController.swift */,
+				93FE11F92CDA885800D674BC /* LoginViewController.xib */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -143,6 +179,8 @@
 		93FE11DB2CDA819300D674BC /* SignUpViewController */ = {
 			isa = PBXGroup;
 			children = (
+				93FE11FC2CDA886A00D674BC /* SignUpViewController.swift */,
+				93FE11FD2CDA886A00D674BC /* SignUpViewController.xib */,
 			);
 			path = SignUpViewController;
 			sourceTree = "<group>";
@@ -150,6 +188,8 @@
 		93FE11DC2CDA81AB00D674BC /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				93FE12002CDA888D00D674BC /* HomeViewController.swift */,
+				93FE12012CDA888D00D674BC /* HomeViewController.xib */,
 			);
 			name = HomeViewController;
 			path = "HomeViewControllẻ";
@@ -160,6 +200,54 @@
 			children = (
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		93FE11E22CDA87E200D674BC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				93FE11EE2CDA880700D674BC /* Extensions */,
+				93FE11E62CDA880700D674BC /* Manager */,
+				93FE11E42CDA880700D674BC /* Storage */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		93FE11E42CDA880700D674BC /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				93FE11E32CDA880700D674BC /* DefaultStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		93FE11E62CDA880700D674BC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		93FE11EE2CDA880700D674BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93FE11E72CDA880700D674BC /* Extension-TableViewRegister.swift */,
+				93FE11E82CDA880700D674BC /* Extension-UIAlert.swift */,
+				93FE11E92CDA880700D674BC /* UIBezierPath+createCurve.swift */,
+				93FE11EA2CDA880700D674BC /* UIColor+Extension.swift */,
+				93FE11EB2CDA880700D674BC /* UIImage+Extension.swift */,
+				93FE11EC2CDA880700D674BC /* UIView+Border.swift */,
+				93FE11ED2CDA880700D674BC /* UIView+Radius.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93FE12042CDA89E100D674BC /* OnboardingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FE12052CDA8A1700D674BC /* OnboardingViewController.swift */,
+				93FE12062CDA8A1700D674BC /* OnboardingViewController.xib */,
+			);
+			path = OnboardingViewController;
 			sourceTree = "<group>";
 		};
 		F0445EADFBA4249E5BE4AA93 /* Frameworks */ = {
@@ -181,6 +269,7 @@
 				93FE11B62CDA5B9200D674BC /* Sources */,
 				93FE11B72CDA5B9200D674BC /* Frameworks */,
 				93FE11B82CDA5B9200D674BC /* Resources */,
+				1108ECAF1A689C710078A5D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,16 +318,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */,
 				93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */,
 				93FE11CA2CDA5B9300D674BC /* Base in Resources */,
 				93FE11C52CDA5B9200D674BC /* Base in Resources */,
+				93FE11FF2CDA886A00D674BC /* SignUpViewController.xib in Resources */,
+				93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */,
 				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
+				93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1108ECAF1A689C710078A5D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C584E454D2D9B644C33D75E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,10 +378,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */,
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
+				93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */,
 				93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */,
 				93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */,
+				93FE12022CDA888D00D674BC /* HomeViewController.swift in Sources */,
+				93FE11F72CDA880700D674BC /* UIView+Radius.swift in Sources */,
+				93FE11EF2CDA880700D674BC /* DefaultStorage.swift in Sources */,
+				93FE11F12CDA880700D674BC /* Extension-TableViewRegister.swift in Sources */,
+				93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */,
+				93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */,
+				93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */,
 				93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */,
+				93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */,
+				93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */,
+				93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyTrackTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -452,6 +575,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyTrackTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
