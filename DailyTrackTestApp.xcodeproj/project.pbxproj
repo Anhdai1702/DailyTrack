@@ -31,6 +31,11 @@
 		93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE12012CDA888D00D674BC /* HomeViewController.xib */; };
 		93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE12052CDA8A1700D674BC /* OnboardingViewController.swift */; };
 		93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE12062CDA8A1700D674BC /* OnboardingViewController.xib */; };
+		93FE120B2CDA94CC00D674BC /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE120A2CDA94CC00D674BC /* OnBoardingModel.swift */; };
+		93FE12102CDA96D800D674BC /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE120E2CDA96D800D674BC /* OnboardingCollectionViewCell.swift */; };
+		93FE12112CDA96D800D674BC /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE120F2CDA96D800D674BC /* OnboardingCollectionViewCell.xib */; };
+		93FE12142CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE12122CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift */; };
+		93FE12152CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FE12132CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib */; };
 		993CFE2E592DFCEE1AFD606B /* Pods_DailyTrackTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016C9567490F9ADC683AD53D /* Pods_DailyTrackTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +68,11 @@
 		93FE12012CDA888D00D674BC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		93FE12052CDA8A1700D674BC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		93FE12062CDA8A1700D674BC /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		93FE120A2CDA94CC00D674BC /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		93FE120E2CDA96D800D674BC /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		93FE120F2CDA96D800D674BC /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		93FE12122CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageControlCollectionViewCell.swift; sourceTree = "<group>"; };
+		93FE12132CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingPageControlCollectionViewCell.xib; sourceTree = "<group>"; };
 		F26FEAEB4404483A93E013DC /* Pods-DailyTrackTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyTrackTestApp.debug.xcconfig"; path = "Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +118,7 @@
 		93FE11BC2CDA5B9200D674BC /* DailyTrackTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				93FE120C2CDA96B100D674BC /* Cells */,
 				93FE11E22CDA87E200D674BC /* Helper */,
 				93FE11D82CDA816A00D674BC /* Model */,
 				93FE11D72CDA816100D674BC /* Views */,
@@ -154,6 +165,7 @@
 		93FE11D82CDA816A00D674BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				93FE12092CDA94AA00D674BC /* OnboardingModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +262,33 @@
 			path = OnboardingViewController;
 			sourceTree = "<group>";
 		};
+		93FE12092CDA94AA00D674BC /* OnboardingModel */ = {
+			isa = PBXGroup;
+			children = (
+				93FE120A2CDA94CC00D674BC /* OnBoardingModel.swift */,
+			);
+			path = OnboardingModel;
+			sourceTree = "<group>";
+		};
+		93FE120C2CDA96B100D674BC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93FE120D2CDA96BB00D674BC /* OnboardingCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		93FE120D2CDA96BB00D674BC /* OnboardingCell */ = {
+			isa = PBXGroup;
+			children = (
+				93FE120E2CDA96D800D674BC /* OnboardingCollectionViewCell.swift */,
+				93FE120F2CDA96D800D674BC /* OnboardingCollectionViewCell.xib */,
+				93FE12122CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift */,
+				93FE12132CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib */,
+			);
+			path = OnboardingCell;
+			sourceTree = "<group>";
+		};
 		F0445EADFBA4249E5BE4AA93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,11 +357,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FE12152CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib in Resources */,
 				93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */,
 				93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */,
 				93FE11CA2CDA5B9300D674BC /* Base in Resources */,
 				93FE11C52CDA5B9200D674BC /* Base in Resources */,
 				93FE11FF2CDA886A00D674BC /* SignUpViewController.xib in Resources */,
+				93FE12112CDA96D800D674BC /* OnboardingCollectionViewCell.xib in Resources */,
 				93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */,
 				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
 				93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */,
@@ -378,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FE120B2CDA94CC00D674BC /* OnBoardingModel.swift in Sources */,
 				93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */,
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
 				93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */,
@@ -394,6 +436,8 @@
 				93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */,
 				93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */,
 				93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */,
+				93FE12142CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift in Sources */,
+				93FE12102CDA96D800D674BC /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
