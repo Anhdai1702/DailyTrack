@@ -84,6 +84,11 @@ extension LoginViewController {
     @IBAction func didTapLoginGoogle(_ sender: Any) {
     }
     
+    @IBAction func didTapForgotPassword(_ sender: Any) {
+        let vc = ForgotPasswordViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func didTapSignup() {
         let vc = SignUpViewController()
         self.navigationController?.pushViewController(vc, animated: true)
@@ -145,7 +150,7 @@ extension LoginViewController {
     }
     
     private func setupDontHaveAccountTextView() {
-        let fullText = "\(dontHaveAccountTextviewTitle)\(loginSignupTitle)"
+        let fullText = "\(dontHaveAccountTextviewTitle) \(loginSignupTitle)"
         let attributedString = NSMutableAttributedString(string: fullText)
         
         // Define the range for the first attribute

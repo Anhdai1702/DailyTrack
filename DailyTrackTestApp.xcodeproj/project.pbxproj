@@ -10,6 +10,8 @@
 		931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */; };
 		931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */; };
 		9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9349FC482CDC41D40048E90B /* GoogleService-Info.plist */; };
+		9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */; };
+		9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */; };
 		93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57D932CDBBB740049F41E /* TextField+Extension.swift */; };
 		93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */; };
 		93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BF2CDA5B9200D674BC /* SceneDelegate.swift */; };
@@ -49,6 +51,8 @@
 		931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCopyPasteTextView.swift; sourceTree = "<group>"; };
 		9349FC482CDC41D40048E90B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		93E57D932CDBBB740049F41E /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		93FE11BA2CDA5B9200D674BC /* DailyTrackTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTrackTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,15 @@
 				931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */,
 			);
 			path = NoCopyPasteTextView;
+			sourceTree = "<group>";
+		};
+		9350607B2CDCC17900F62B89 /* ForgotPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */,
+				9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */,
+			);
+			path = ForgotPasswordViewController;
 			sourceTree = "<group>";
 		};
 		93FE11B12CDA5B9200D674BC = {
@@ -200,6 +213,7 @@
 		93FE11DA2CDA818100D674BC /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9350607B2CDCC17900F62B89 /* ForgotPasswordViewController */,
 				93FE11F82CDA885800D674BC /* LoginViewController.swift */,
 				93FE11F92CDA885800D674BC /* LoginViewController.xib */,
 			);
@@ -377,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */,
 				93FE12152CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib in Resources */,
 				93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */,
 				93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */,
@@ -441,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93FE120B2CDA94CC00D674BC /* OnBoardingModel.swift in Sources */,
+				9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */,
 				93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */,
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
 				93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */,
