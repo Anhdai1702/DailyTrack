@@ -31,7 +31,7 @@ extension OnboardingViewController {
             moveToItem(at: IndexPath(item: currentIndex, section: 0))
         }
         else {
-            let vc = HomeViewController()
+            let vc = LoginViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
@@ -52,14 +52,14 @@ extension OnboardingViewController {
         onboardingPageControl.setup(cellType: OnboardingPageControlCollectionViewCell.self, delegateAndDataSource: self)
     }
     
-    func moveToItem(at indexPath: IndexPath) {
+    private func moveToItem(at indexPath: IndexPath) {
         onboardingSlideCollectionView.scrollToItem(at: indexPath, at: [.centeredHorizontally, .centeredVertically], animated: true)
         currentIndex = indexPath.item
         onboardingPageControl.reloadData()
         updateData()
     }
     
-    func updateData() {
+    private func updateData() {
         desciptionLabel.text = OnboardingSlide.allSlides[currentIndex].description
         onboardingPageControl.reloadData()
     }

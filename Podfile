@@ -18,5 +18,7 @@ target 'DailyTrackTestApp' do
   pod 'TTTAttributedLabel'
   pod 'NVActivityIndicatorView'
   pod 'Mixpanel-swift'
+  pod 'Firebase/Auth'
+  pod 'FirebaseAppCheckInterop'
 
 end

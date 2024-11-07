@@ -12,8 +12,6 @@ class OnboardingPageControlCollectionViewCell: UICollectionViewCell {
     @IBOutlet private weak var pageControlView: UIView!
     
     struct ConstantsOnboardingPageControl {
-        static let selectedColor = UIColor(hex: "#1640D6")
-        static let unselectedColor = UIColor(hex: "#8A8E9E")
         static let selectedRadius: CGFloat = 3.3
         static let unselectedRadius: CGFloat = 3
     }
@@ -24,6 +22,6 @@ class OnboardingPageControlCollectionViewCell: UICollectionViewCell {
 
     func updateView(isSelect: Bool) {
         pageControlView.border(radius: isSelect ? ConstantsOnboardingPageControl.selectedRadius: ConstantsOnboardingPageControl.unselectedRadius)
-        pageControlView.backgroundColor = isSelect ?  ConstantsOnboardingPageControl.selectedColor: ConstantsOnboardingPageControl.unselectedColor
+        pageControlView.backgroundColor = isSelect ?  Constants.color1640D6: Constants.color8A8E9E
     }
 }

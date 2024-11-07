@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */; };
+		931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */; };
+		9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9349FC482CDC41D40048E90B /* GoogleService-Info.plist */; };
+		93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57D932CDBBB740049F41E /* TextField+Extension.swift */; };
 		93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */; };
 		93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BF2CDA5B9200D674BC /* SceneDelegate.swift */; };
 		93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11C12CDA5B9200D674BC /* ViewController.swift */; };
@@ -42,6 +46,10 @@
 /* Begin PBXFileReference section */
 		016C9567490F9ADC683AD53D /* Pods_DailyTrackTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyTrackTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		704B0E02F5CD3273F6F4F5C2 /* Pods-DailyTrackTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyTrackTestApp.release.xcconfig"; path = "Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCopyPasteTextView.swift; sourceTree = "<group>"; };
+		9349FC482CDC41D40048E90B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93E57D932CDBBB740049F41E /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		93FE11BA2CDA5B9200D674BC /* DailyTrackTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTrackTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93FE11BF2CDA5B9200D674BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +105,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		931AA3ED2CDBD1DE002B3FB9 /* NoCopyPasteTextView */ = {
+			isa = PBXGroup;
+			children = (
+				931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */,
+			);
+			path = NoCopyPasteTextView;
+			sourceTree = "<group>";
+		};
 		93FE11B12CDA5B9200D674BC = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +141,7 @@
 				93FE11D62CDA814D00D674BC /* Controllers */,
 				93FE11D22CDA5D5100D674BC /* Resources */,
 				93FE11CB2CDA5B9300D674BC /* Info.plist */,
+				9349FC482CDC41D40048E90B /* GoogleService-Info.plist */,
 			);
 			path = DailyTrackTestApp;
 			sourceTree = "<group>";
@@ -158,6 +175,7 @@
 		93FE11D72CDA816100D674BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				931AA3ED2CDBD1DE002B3FB9 /* NoCopyPasteTextView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +238,7 @@
 				93FE11EE2CDA880700D674BC /* Extensions */,
 				93FE11E62CDA880700D674BC /* Manager */,
 				93FE11E42CDA880700D674BC /* Storage */,
+				931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -249,6 +268,7 @@
 				93FE11EB2CDA880700D674BC /* UIImage+Extension.swift */,
 				93FE11EC2CDA880700D674BC /* UIView+Border.swift */,
 				93FE11ED2CDA880700D674BC /* UIView+Radius.swift */,
+				93E57D932CDBBB740049F41E /* TextField+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -365,6 +385,7 @@
 				93FE11FF2CDA886A00D674BC /* SignUpViewController.xib in Resources */,
 				93FE12112CDA96D800D674BC /* OnboardingCollectionViewCell.xib in Resources */,
 				93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */,
+				9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */,
 				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
 				93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */,
 			);
@@ -430,12 +451,15 @@
 				93FE11EF2CDA880700D674BC /* DefaultStorage.swift in Sources */,
 				93FE11F12CDA880700D674BC /* Extension-TableViewRegister.swift in Sources */,
 				93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */,
+				931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */,
 				93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */,
 				93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */,
 				93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */,
 				93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */,
 				93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */,
+				931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */,
 				93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */,
+				93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */,
 				93FE12142CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift in Sources */,
 				93FE12102CDA96D800D674BC /* OnboardingCollectionViewCell.swift in Sources */,
 			);
@@ -515,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -572,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -590,6 +614,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV28B8RLX9;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyTrackTestApp/Info.plist;
@@ -619,6 +644,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV28B8RLX9;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyTrackTestApp/Info.plist;

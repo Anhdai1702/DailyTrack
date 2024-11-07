@@ -18,12 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Check first boot status
         if defaultStorage.noFirstTimeLaunch {
             // If not the first time, go directly to the main screen
-            let mainVC = OnboardingViewController()
+            let mainVC = SplashViewController()
             let navi = UINavigationController(rootViewController: mainVC)
             window.rootViewController = navi
         } else {
             // If it's the first time, show the Splash screen
-            let splashVC = SplashViewController()
+            let splashVC = OnboardingViewController()
             let navi = UINavigationController(rootViewController: splashVC)
             window.rootViewController = navi
         }
