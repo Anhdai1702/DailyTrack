@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SurveyCollectionViewCell" customModule="DailyTrackTestApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="711"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="711"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="survey_bg_day" translatesAutoresizingMaskIntoConstraints="NO" id="kZ6-p0-1qu">
+                        <rect key="frame" x="0.0" y="341.33333333333326" width="390" height="369.66666666666674"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="survey_day" translatesAutoresizingMaskIntoConstraints="NO" id="2xs-ZI-3Tt">
+                        <rect key="frame" x="0.0" y="190.66666666666666" width="390" height="270.33333333333337"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="survey_night" translatesAutoresizingMaskIntoConstraints="NO" id="eY8-Qc-TgK">
+                        <rect key="frame" x="0.0" y="195.66666666666663" width="390" height="213.33333333333337"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="survey_bg_night" translatesAutoresizingMaskIntoConstraints="NO" id="jep-rx-sjW">
+                        <rect key="frame" x="0.0" y="369.66666666666674" width="390" height="341.33333333333326"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dv6-Uk-HWV">
+                        <rect key="frame" x="0.0" y="372" width="390" height="199"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="y8X-x6-DCb">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="199"/>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y8X-x6-DCb" firstAttribute="top" secondItem="Dv6-Uk-HWV" secondAttribute="top" id="4mA-WB-VRb"/>
+                            <constraint firstAttribute="bottom" secondItem="y8X-x6-DCb" secondAttribute="bottom" id="a0t-Kt-JRt"/>
+                            <constraint firstAttribute="trailing" secondItem="y8X-x6-DCb" secondAttribute="trailing" id="g97-Mv-j68"/>
+                            <constraint firstItem="y8X-x6-DCb" firstAttribute="leading" secondItem="Dv6-Uk-HWV" secondAttribute="leading" id="lwr-JA-SsO"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What time do you usually wake up?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kV3-mH-2BR">
+                        <rect key="frame" x="20" y="96" width="312" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kZ6-p0-1qu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1gt-79-TQI"/>
+                <constraint firstItem="eY8-Qc-TgK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6sJ-4b-uWX"/>
+                <constraint firstAttribute="bottom" secondItem="kZ6-p0-1qu" secondAttribute="bottom" id="76H-Fe-pxc"/>
+                <constraint firstItem="2xs-ZI-3Tt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FLu-EQ-CPb"/>
+                <constraint firstAttribute="bottom" secondItem="eY8-Qc-TgK" secondAttribute="bottom" constant="302" id="JpT-Hh-rd9"/>
+                <constraint firstItem="jep-rx-sjW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MM8-PK-j3c"/>
+                <constraint firstAttribute="trailing" secondItem="jep-rx-sjW" secondAttribute="trailing" id="RdS-Et-Clf"/>
+                <constraint firstAttribute="trailing" secondItem="kZ6-p0-1qu" secondAttribute="trailing" id="Rx3-nh-EEG"/>
+                <constraint firstAttribute="bottom" secondItem="Dv6-Uk-HWV" secondAttribute="bottom" constant="140" id="TXc-N1-ob8"/>
+                <constraint firstAttribute="trailing" secondItem="2xs-ZI-3Tt" secondAttribute="trailing" id="TcZ-fY-xQ3"/>
+                <constraint firstAttribute="bottom" secondItem="jep-rx-sjW" secondAttribute="bottom" id="Vsd-ha-qkC"/>
+                <constraint firstItem="jep-rx-sjW" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.48" id="Wu2-4s-Cr5"/>
+                <constraint firstItem="2xs-ZI-3Tt" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.38" id="Xfn-cg-AYQ"/>
+                <constraint firstItem="Dv6-Uk-HWV" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.28" id="XnR-j1-6ak"/>
+                <constraint firstItem="kV3-mH-2BR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="96" id="azs-fY-0Kb"/>
+                <constraint firstAttribute="trailing" secondItem="eY8-Qc-TgK" secondAttribute="trailing" id="eV0-fL-fp0"/>
+                <constraint firstItem="eY8-Qc-TgK" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.3" id="gnc-Vq-m29"/>
+                <constraint firstItem="kV3-mH-2BR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="hxY-cY-RzK"/>
+                <constraint firstAttribute="trailing" secondItem="kV3-mH-2BR" secondAttribute="trailing" constant="58" id="jf3-BL-obT"/>
+                <constraint firstItem="kZ6-p0-1qu" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.52" id="nQJ-4U-wzM"/>
+                <constraint firstAttribute="trailing" secondItem="Dv6-Uk-HWV" secondAttribute="trailing" id="neS-qK-aH1"/>
+                <constraint firstAttribute="bottom" secondItem="2xs-ZI-3Tt" secondAttribute="bottom" constant="250" id="tHc-gp-g85"/>
+                <constraint firstItem="Dv6-Uk-HWV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uPe-Aw-W3k"/>
+            </constraints>
+            <size key="customSize" width="390" height="711"/>
+            <connections>
+                <outlet property="backgrounDayImage" destination="kZ6-p0-1qu" id="jgN-QB-Ecb"/>
+                <outlet property="backgroundNightImage" destination="jep-rx-sjW" id="TYn-cH-XDJ"/>
+                <outlet property="datePicker" destination="y8X-x6-DCb" id="vjA-QV-Aq2"/>
+                <outlet property="questionLabel" destination="kV3-mH-2BR" id="gTF-d9-N2e"/>
+                <outlet property="skyDayImage" destination="2xs-ZI-3Tt" id="nkt-SZ-JP5"/>
+                <outlet property="skyNightImage" destination="eY8-Qc-TgK" id="aJc-RY-GYQ"/>
+            </connections>
+            <point key="canvasLocation" x="-32.061068702290072" y="63.732394366197184"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="survey_bg_day" width="375" height="436"/>
+        <image name="survey_bg_night" width="375" height="396"/>
+        <image name="survey_day" width="375" height="274"/>
+        <image name="survey_night" width="375" height="185"/>
+    </resources>
+</document>

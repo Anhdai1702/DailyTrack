@@ -69,7 +69,8 @@ extension LoginViewController {
                                }
                            }
                 else{
-                    let vc = HomeViewController()
+                    let vc = SurveyViewController()
+                    self.navigationController?.pushViewController(vc, animated: true)
                 }
             }
         }

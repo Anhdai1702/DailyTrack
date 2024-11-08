@@ -12,6 +12,15 @@
 		9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9349FC482CDC41D40048E90B /* GoogleService-Info.plist */; };
 		9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */; };
 		9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */; };
+		935060872CDCF92700F62B89 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935060852CDCF92700F62B89 /* SurveyViewController.swift */; };
+		935060882CDCF92700F62B89 /* SurveyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935060862CDCF92700F62B89 /* SurveyViewController.xib */; };
+		9350608C2CDD028300F62B89 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350608A2CDD028300F62B89 /* SurveyCollectionViewCell.swift */; };
+		9350608D2CDD028300F62B89 /* SurveyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9350608B2CDD028300F62B89 /* SurveyCollectionViewCell.xib */; };
+		9360ECE82CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9360ECE72CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib */; };
+		9360ECE92CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECE62CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift */; };
+		9360ECEC2CDD1F370097D38C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */; };
+		9360ECED2CDD1F370097D38C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */; };
+		9360ECF02CDD21600097D38C /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECEF2CDD21600097D38C /* SurveyModel.swift */; };
 		93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57D932CDBBB740049F41E /* TextField+Extension.swift */; };
 		93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */; };
 		93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BF2CDA5B9200D674BC /* SceneDelegate.swift */; };
@@ -53,6 +62,15 @@
 		9349FC482CDC41D40048E90B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		935060852CDCF92700F62B89 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		935060862CDCF92700F62B89 /* SurveyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyViewController.xib; sourceTree = "<group>"; };
+		9350608A2CDD028300F62B89 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
+		9350608B2CDD028300F62B89 /* SurveyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyCollectionViewCell.xib; sourceTree = "<group>"; };
+		9360ECE62CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		9360ECE72CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyQuestionCollectionViewCell.xib; sourceTree = "<group>"; };
+		9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionCollectionViewCell.xib; sourceTree = "<group>"; };
+		9360ECEF2CDD21600097D38C /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
 		93E57D932CDBBB740049F41E /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		93FE11BA2CDA5B9200D674BC /* DailyTrackTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTrackTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +144,36 @@
 			path = ForgotPasswordViewController;
 			sourceTree = "<group>";
 		};
+		935060842CDCF91400F62B89 /* SurveyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				935060852CDCF92700F62B89 /* SurveyViewController.swift */,
+				935060862CDCF92700F62B89 /* SurveyViewController.xib */,
+			);
+			path = SurveyViewController;
+			sourceTree = "<group>";
+		};
+		935060892CDD025F00F62B89 /* SurveyViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9350608A2CDD028300F62B89 /* SurveyCollectionViewCell.swift */,
+				9350608B2CDD028300F62B89 /* SurveyCollectionViewCell.xib */,
+				9360ECE62CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift */,
+				9360ECE72CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib */,
+				9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */,
+				9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */,
+			);
+			path = SurveyViewCell;
+			sourceTree = "<group>";
+		};
+		9360ECEE2CDD21490097D38C /* SurveyModel */ = {
+			isa = PBXGroup;
+			children = (
+				9360ECEF2CDD21600097D38C /* SurveyModel.swift */,
+			);
+			path = SurveyModel;
+			sourceTree = "<group>";
+		};
 		93FE11B12CDA5B9200D674BC = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +223,7 @@
 		93FE11D62CDA814D00D674BC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				935060842CDCF91400F62B89 /* SurveyViewController */,
 				93FE12042CDA89E100D674BC /* OnboardingViewController */,
 				93FE11DD2CDA81BF00D674BC /* Tabbar */,
 				93FE11DC2CDA81AB00D674BC /* HomeViewController */,
@@ -196,6 +245,7 @@
 		93FE11D82CDA816A00D674BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9360ECEE2CDD21490097D38C /* SurveyModel */,
 				93FE12092CDA94AA00D674BC /* OnboardingModel */,
 			);
 			path = Model;
@@ -307,6 +357,7 @@
 		93FE120C2CDA96B100D674BC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				935060892CDD025F00F62B89 /* SurveyViewCell */,
 				93FE120D2CDA96BB00D674BC /* OnboardingCell */,
 			);
 			path = Cells;
@@ -391,6 +442,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9360ECE82CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib in Resources */,
+				9350608D2CDD028300F62B89 /* SurveyCollectionViewCell.xib in Resources */,
 				9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */,
 				93FE12152CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib in Resources */,
 				93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */,
@@ -402,6 +455,8 @@
 				93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */,
 				9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */,
 				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
+				935060882CDCF92700F62B89 /* SurveyViewController.xib in Resources */,
+				9360ECEC2CDD1F370097D38C /* QuestionCollectionViewCell.xib in Resources */,
 				93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,14 +514,18 @@
 				9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */,
 				93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */,
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
+				9360ECED2CDD1F370097D38C /* QuestionCollectionViewCell.swift in Sources */,
 				93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */,
 				93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */,
 				93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */,
 				93FE12022CDA888D00D674BC /* HomeViewController.swift in Sources */,
 				93FE11F72CDA880700D674BC /* UIView+Radius.swift in Sources */,
 				93FE11EF2CDA880700D674BC /* DefaultStorage.swift in Sources */,
+				9360ECF02CDD21600097D38C /* SurveyModel.swift in Sources */,
+				935060872CDCF92700F62B89 /* SurveyViewController.swift in Sources */,
 				93FE11F12CDA880700D674BC /* Extension-TableViewRegister.swift in Sources */,
 				93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */,
+				9350608C2CDD028300F62B89 /* SurveyCollectionViewCell.swift in Sources */,
 				931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */,
 				93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */,
 				93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */,
@@ -475,6 +534,7 @@
 				93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */,
 				931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */,
 				93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */,
+				9360ECE92CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift in Sources */,
 				93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */,
 				93FE12142CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift in Sources */,
 				93FE12102CDA96D800D674BC /* OnboardingCollectionViewCell.swift in Sources */,
