@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabbarView" customModule="DailyTrackTestApp" customModuleProvider="target">
+            <connections>
+                <outlet property="addHabit" destination="Csy-hx-UPd" id="At0-Lv-jQJ"/>
+                <outlet property="bookBtn" destination="lus-Sg-u6r" id="dcu-V9-vlB"/>
+                <outlet property="menuBtn" destination="PhD-aF-4Mw" id="rCX-sh-YVT"/>
+                <outlet property="moveBarBookImage" destination="jVn-1k-Dn0" id="AvV-3K-SyX"/>
+                <outlet property="moveBarMenuImage" destination="o54-B4-Wzo" id="llQ-H9-546"/>
+                <outlet property="moveBarStoreImage" destination="fdJ-jt-sIj" id="pgE-xQ-Kcs"/>
+                <outlet property="moveBarTimeImage" destination="lqP-TX-mJ4" id="sbs-Iz-qW6"/>
+                <outlet property="storeBtn" destination="fLo-aO-HZn" id="B1S-UZ-qZg"/>
+                <outlet property="timeBtn" destination="hhJ-bC-oy5" id="KSH-au-nZG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="140"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Csy-hx-UPd">
+                    <rect key="frame" x="313" y="14" width="54" height="86"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="54" id="fa3-m4-Ggt"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="tabbar_plus"/>
+                    <connections>
+                        <action selector="didTapAddHabit:" destination="-1" eventType="touchUpInside" id="sP7-NG-x2J"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xbL-v6-TwW">
+                    <rect key="frame" x="20" y="14" width="245" height="86"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esW-NM-tlE">
+                            <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="86"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhD-aF-4Mw">
+                                    <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="86"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="tabbar_menudidselect"/>
+                                    <connections>
+                                        <action selector="didTapMenu:" destination="-1" eventType="touchUpInside" id="p0k-4l-9KT"/>
+                                    </connections>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_ based" translatesAutoresizingMaskIntoConstraints="NO" id="o54-B4-Wzo">
+                                    <rect key="frame" x="22.666666666666664" y="80" width="16" height="6"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="6" id="JDp-0w-nEn"/>
+                                        <constraint firstAttribute="width" constant="16" id="cTd-eu-pdf"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.086274509799999996" green="0.25098039220000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="PhD-aF-4Mw" secondAttribute="bottom" id="4fx-Ck-2V7"/>
+                                <constraint firstAttribute="bottom" secondItem="o54-B4-Wzo" secondAttribute="bottom" id="TTx-mM-xDM"/>
+                                <constraint firstAttribute="trailing" secondItem="PhD-aF-4Mw" secondAttribute="trailing" id="X5O-Dh-h3E"/>
+                                <constraint firstItem="PhD-aF-4Mw" firstAttribute="top" secondItem="esW-NM-tlE" secondAttribute="top" id="acu-fK-fFr"/>
+                                <constraint firstItem="o54-B4-Wzo" firstAttribute="centerX" secondItem="esW-NM-tlE" secondAttribute="centerX" id="qMY-FZ-wnk"/>
+                                <constraint firstItem="PhD-aF-4Mw" firstAttribute="leading" secondItem="esW-NM-tlE" secondAttribute="leading" id="szR-6e-v5O"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EL0-zz-jEp">
+                            <rect key="frame" x="61.333333333333329" y="0.0" width="61.333333333333329" height="86"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lus-Sg-u6r">
+                                    <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="86"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="tabbar_book_didselect"/>
+                                    <connections>
+                                        <action selector="didTapBook:" destination="-1" eventType="touchUpInside" id="53R-nR-5fh"/>
+                                    </connections>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_ based" translatesAutoresizingMaskIntoConstraints="NO" id="jVn-1k-Dn0">
+                                    <rect key="frame" x="22.666666666666671" y="80" width="16" height="6"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="6" id="Xh7-SM-wPB"/>
+                                        <constraint firstAttribute="width" constant="16" id="gLl-6H-h66"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="maM-wD-loQ"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="6" id="qhi-Cg-WPf"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.086274509799999996" green="0.25098039220000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="lus-Sg-u6r" secondAttribute="bottom" id="4PT-pD-PhS"/>
+                                <constraint firstAttribute="trailing" secondItem="lus-Sg-u6r" secondAttribute="trailing" id="95R-HF-6fO"/>
+                                <constraint firstItem="lus-Sg-u6r" firstAttribute="top" secondItem="EL0-zz-jEp" secondAttribute="top" id="ArX-Ye-6Qf"/>
+                                <constraint firstAttribute="bottom" secondItem="jVn-1k-Dn0" secondAttribute="bottom" id="KTy-jf-1EP"/>
+                                <constraint firstItem="jVn-1k-Dn0" firstAttribute="centerX" secondItem="EL0-zz-jEp" secondAttribute="centerX" id="bQe-Sj-byj"/>
+                                <constraint firstItem="lus-Sg-u6r" firstAttribute="leading" secondItem="EL0-zz-jEp" secondAttribute="leading" id="hx9-8k-Lzt"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-Pi-oc6">
+                            <rect key="frame" x="122.66666666666666" y="0.0" width="61" height="86"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhJ-bC-oy5">
+                                    <rect key="frame" x="0.0" y="0.0" width="61" height="86"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="tabbar_time_didselect"/>
+                                    <connections>
+                                        <action selector="didTapTime:" destination="-1" eventType="touchUpInside" id="ejn-0a-jsH"/>
+                                    </connections>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_ based" translatesAutoresizingMaskIntoConstraints="NO" id="lqP-TX-mJ4">
+                                    <rect key="frame" x="22.333333333333343" y="80" width="16" height="6"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="6U0-Qv-vIo"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="6" id="6ci-tH-mFj"/>
+                                        <constraint firstAttribute="height" constant="6" id="KCc-Z8-RMT"/>
+                                        <constraint firstAttribute="width" constant="16" id="u8n-VY-Qrv"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.086274509799999996" green="0.25098039220000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="lqP-TX-mJ4" firstAttribute="centerX" secondItem="c1h-Pi-oc6" secondAttribute="centerX" id="EoY-1j-jmU"/>
+                                <constraint firstItem="hhJ-bC-oy5" firstAttribute="leading" secondItem="c1h-Pi-oc6" secondAttribute="leading" id="GyO-jz-5OK"/>
+                                <constraint firstItem="hhJ-bC-oy5" firstAttribute="top" secondItem="c1h-Pi-oc6" secondAttribute="top" id="N68-ce-kfl"/>
+                                <constraint firstAttribute="bottom" secondItem="hhJ-bC-oy5" secondAttribute="bottom" id="TFp-Yo-k54"/>
+                                <constraint firstAttribute="trailing" secondItem="hhJ-bC-oy5" secondAttribute="trailing" id="c18-ic-Y7G"/>
+                                <constraint firstAttribute="bottom" secondItem="lqP-TX-mJ4" secondAttribute="bottom" id="epI-A0-Dvl"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hiK-OZ-llS">
+                            <rect key="frame" x="183.66666666666666" y="0.0" width="61.333333333333343" height="86"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLo-aO-HZn">
+                                    <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="86"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="tabbar_store_didselect"/>
+                                    <connections>
+                                        <action selector="didTapStore:" destination="-1" eventType="touchUpInside" id="qck-9P-MPs"/>
+                                    </connections>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_ based" translatesAutoresizingMaskIntoConstraints="NO" id="fdJ-jt-sIj">
+                                    <rect key="frame" x="22.666666666666686" y="80" width="16" height="6"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="16" id="1rE-EO-Sem"/>
+                                        <constraint firstAttribute="height" constant="6" id="Znb-x2-IoK"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="6" id="iCA-pP-RTm"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="kdk-ym-rnm"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.086274509799999996" green="0.25098039220000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="fdJ-jt-sIj" firstAttribute="centerX" secondItem="hiK-OZ-llS" secondAttribute="centerX" id="7sC-qB-NuX"/>
+                                <constraint firstAttribute="trailing" secondItem="fLo-aO-HZn" secondAttribute="trailing" id="IST-Fb-9Ts"/>
+                                <constraint firstAttribute="bottom" secondItem="fdJ-jt-sIj" secondAttribute="bottom" id="Llh-YY-K53"/>
+                                <constraint firstItem="fLo-aO-HZn" firstAttribute="top" secondItem="hiK-OZ-llS" secondAttribute="top" id="NdF-ai-wW2"/>
+                                <constraint firstItem="fLo-aO-HZn" firstAttribute="leading" secondItem="hiK-OZ-llS" secondAttribute="leading" id="TdW-cL-fyG"/>
+                                <constraint firstAttribute="bottom" secondItem="fLo-aO-HZn" secondAttribute="bottom" id="wSv-Il-yeg"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.082352941176470587" green="0.082352941176470587" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Csy-hx-UPd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="Ez5-cR-mx5"/>
+                <constraint firstAttribute="bottom" secondItem="Csy-hx-UPd" secondAttribute="bottom" constant="40" id="R8n-6A-ld1"/>
+                <constraint firstAttribute="bottom" secondItem="xbL-v6-TwW" secondAttribute="bottom" constant="40" id="Vfc-7c-vmG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Csy-hx-UPd" secondAttribute="trailing" constant="20" id="XJY-tu-k7o"/>
+                <constraint firstItem="xbL-v6-TwW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="XL0-bc-rAX"/>
+                <constraint firstItem="xbL-v6-TwW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="aAX-jM-mKe"/>
+                <constraint firstItem="Csy-hx-UPd" firstAttribute="leading" secondItem="xbL-v6-TwW" secondAttribute="trailing" constant="48" id="wwb-6Q-Ucg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="203.81679389312976" y="157.04225352112678"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabbar_ based" width="16" height="6"/>
+        <image name="tabbar_book_didselect" width="24" height="24"/>
+        <image name="tabbar_menudidselect" width="24" height="24"/>
+        <image name="tabbar_plus" width="54" height="54"/>
+        <image name="tabbar_store_didselect" width="24" height="24"/>
+        <image name="tabbar_time_didselect" width="24" height="24"/>
+    </resources>
+</document>
