@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */; };
 		931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */; };
+		931C5CFB2CDE1FD900D6802F /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C5CF92CDE1FD900D6802F /* TabbarViewController.swift */; };
+		931C5CFC2CDE1FD900D6802F /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C5CFA2CDE1FD900D6802F /* TabbarViewController.xib */; };
+		931C5CFF2CDE20A000D6802F /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C5CFE2CDE20A000D6802F /* TabbarView.swift */; };
+		931C5D012CDE20B500D6802F /* TabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C5D002CDE20B500D6802F /* TabbarView.xib */; };
 		9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9349FC482CDC41D40048E90B /* GoogleService-Info.plist */; };
 		9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */; };
 		9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */; };
@@ -21,7 +25,22 @@
 		9360ECEC2CDD1F370097D38C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */; };
 		9360ECED2CDD1F370097D38C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */; };
 		9360ECF02CDD21600097D38C /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECEF2CDD21600097D38C /* SurveyModel.swift */; };
+		936D7A4A2CDF6DFA0088723D /* UIView+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A492CDF6DFA0088723D /* UIView+Corner.swift */; };
+		936D7A4E2CDFA3400088723D /* BadHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936D7A4D2CDFA3400088723D /* BadHabitViewController.xib */; };
+		936D7A4F2CDFA3400088723D /* BadHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A4C2CDFA3400088723D /* BadHabitViewController.swift */; };
+		936D7A532CDFA3710088723D /* GoodHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936D7A522CDFA3710088723D /* GoodHabitViewController.xib */; };
+		936D7A542CDFA3710088723D /* GoodHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A512CDFA3710088723D /* GoodHabitViewController.swift */; };
 		93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57D932CDBBB740049F41E /* TextField+Extension.swift */; };
+		93FC73EC2CDF36F500F425C6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */; };
+		93FC73ED2CDF36F500F425C6 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */; };
+		93FC73F32CDF375000F425C6 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73F12CDF375000F425C6 /* BookViewController.swift */; };
+		93FC73F42CDF375000F425C6 /* BookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC73F22CDF375000F425C6 /* BookViewController.xib */; };
+		93FC73F82CDF376000F425C6 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73F62CDF376000F425C6 /* TimeViewController.swift */; };
+		93FC73F92CDF376000F425C6 /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC73F72CDF376000F425C6 /* TimeViewController.xib */; };
+		93FC73FC2CDF377700F425C6 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73FA2CDF377700F425C6 /* StoreViewController.swift */; };
+		93FC73FD2CDF377700F425C6 /* StoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC73FB2CDF377700F425C6 /* StoreViewController.xib */; };
+		93FC74012CDF5E9600F425C6 /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73FF2CDF5E9600F425C6 /* AddHabitViewController.swift */; };
+		93FC74022CDF5E9600F425C6 /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC74002CDF5E9600F425C6 /* AddHabitViewController.xib */; };
 		93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */; };
 		93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11BF2CDA5B9200D674BC /* SceneDelegate.swift */; };
 		93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE11C12CDA5B9200D674BC /* ViewController.swift */; };
@@ -59,6 +78,10 @@
 		704B0E02F5CD3273F6F4F5C2 /* Pods-DailyTrackTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyTrackTestApp.release.xcconfig"; path = "Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCopyPasteTextView.swift; sourceTree = "<group>"; };
+		931C5CF92CDE1FD900D6802F /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		931C5CFA2CDE1FD900D6802F /* TabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
+		931C5CFE2CDE20A000D6802F /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		931C5D002CDE20B500D6802F /* TabbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarView.xib; sourceTree = "<group>"; };
 		9349FC482CDC41D40048E90B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
@@ -71,7 +94,22 @@
 		9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionCollectionViewCell.xib; sourceTree = "<group>"; };
 		9360ECEF2CDD21600097D38C /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		936D7A492CDF6DFA0088723D /* UIView+Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corner.swift"; sourceTree = "<group>"; };
+		936D7A4C2CDFA3400088723D /* BadHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadHabitViewController.swift; sourceTree = "<group>"; };
+		936D7A4D2CDFA3400088723D /* BadHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadHabitViewController.xib; sourceTree = "<group>"; };
+		936D7A512CDFA3710088723D /* GoodHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodHabitViewController.swift; sourceTree = "<group>"; };
+		936D7A522CDFA3710088723D /* GoodHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodHabitViewController.xib; sourceTree = "<group>"; };
 		93E57D932CDBBB740049F41E /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		93FC73F12CDF375000F425C6 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		93FC73F22CDF375000F425C6 /* BookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookViewController.xib; sourceTree = "<group>"; };
+		93FC73F62CDF376000F425C6 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		93FC73F72CDF376000F425C6 /* TimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
+		93FC73FA2CDF377700F425C6 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		93FC73FB2CDF377700F425C6 /* StoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreViewController.xib; sourceTree = "<group>"; };
+		93FC73FF2CDF5E9600F425C6 /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		93FC74002CDF5E9600F425C6 /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
 		93FE11BA2CDA5B9200D674BC /* DailyTrackTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTrackTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FE11BD2CDA5B9200D674BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93FE11BF2CDA5B9200D674BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +173,15 @@
 			path = NoCopyPasteTextView;
 			sourceTree = "<group>";
 		};
+		931C5CFD2CDE204900D6802F /* TabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				931C5CFE2CDE20A000D6802F /* TabbarView.swift */,
+				931C5D002CDE20B500D6802F /* TabbarView.xib */,
+			);
+			path = TabbarView;
+			sourceTree = "<group>";
+		};
 		9350607B2CDCC17900F62B89 /* ForgotPasswordViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +219,72 @@
 				9360ECEF2CDD21600097D38C /* SurveyModel.swift */,
 			);
 			path = SurveyModel;
+			sourceTree = "<group>";
+		};
+		936D7A4B2CDFA3220088723D /* BadHabitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				936D7A4C2CDFA3400088723D /* BadHabitViewController.swift */,
+				936D7A4D2CDFA3400088723D /* BadHabitViewController.xib */,
+			);
+			path = BadHabitViewController;
+			sourceTree = "<group>";
+		};
+		936D7A502CDFA34C0088723D /* GoodHabitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				936D7A512CDFA3710088723D /* GoodHabitViewController.swift */,
+				936D7A522CDFA3710088723D /* GoodHabitViewController.xib */,
+			);
+			name = GoodHabitViewController;
+			path = "GoodHabitViewControllẻ";
+			sourceTree = "<group>";
+		};
+		93FC73E92CDF36D600F425C6 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */,
+				93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */,
+			);
+			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		93FC73EE2CDF370200F425C6 /* BookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FC73F12CDF375000F425C6 /* BookViewController.swift */,
+				93FC73F22CDF375000F425C6 /* BookViewController.xib */,
+			);
+			path = BookViewController;
+			sourceTree = "<group>";
+		};
+		93FC73EF2CDF371500F425C6 /* TimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FC73F62CDF376000F425C6 /* TimeViewController.swift */,
+				93FC73F72CDF376000F425C6 /* TimeViewController.xib */,
+			);
+			path = TimeViewController;
+			sourceTree = "<group>";
+		};
+		93FC73F02CDF372100F425C6 /* StoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93FC73FA2CDF377700F425C6 /* StoreViewController.swift */,
+				93FC73FB2CDF377700F425C6 /* StoreViewController.xib */,
+			);
+			path = StoreViewController;
+			sourceTree = "<group>";
+		};
+		93FC73FE2CDF5E7D00F425C6 /* AddHabitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				936D7A502CDFA34C0088723D /* GoodHabitViewController */,
+				936D7A4B2CDFA3220088723D /* BadHabitViewController */,
+				93FC73FF2CDF5E9600F425C6 /* AddHabitViewController.swift */,
+				93FC74002CDF5E9600F425C6 /* AddHabitViewController.xib */,
+			);
+			path = AddHabitViewController;
 			sourceTree = "<group>";
 		};
 		93FE11B12CDA5B9200D674BC = {
@@ -237,6 +350,7 @@
 		93FE11D72CDA816100D674BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				931C5CFD2CDE204900D6802F /* TabbarView */,
 				931AA3ED2CDBD1DE002B3FB9 /* NoCopyPasteTextView */,
 			);
 			path = Views;
@@ -292,6 +406,13 @@
 		93FE11DD2CDA81BF00D674BC /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				93FC73FE2CDF5E7D00F425C6 /* AddHabitViewController */,
+				93FC73F02CDF372100F425C6 /* StoreViewController */,
+				93FC73EF2CDF371500F425C6 /* TimeViewController */,
+				93FC73EE2CDF370200F425C6 /* BookViewController */,
+				93FC73E92CDF36D600F425C6 /* MenuViewController */,
+				931C5CF92CDE1FD900D6802F /* TabbarViewController.swift */,
+				931C5CFA2CDE1FD900D6802F /* TabbarViewController.xib */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -333,6 +454,7 @@
 				93FE11EC2CDA880700D674BC /* UIView+Border.swift */,
 				93FE11ED2CDA880700D674BC /* UIView+Radius.swift */,
 				93E57D932CDBBB740049F41E /* TextField+Extension.swift */,
+				936D7A492CDF6DFA0088723D /* UIView+Corner.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -444,18 +566,27 @@
 			files = (
 				9360ECE82CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib in Resources */,
 				9350608D2CDD028300F62B89 /* SurveyCollectionViewCell.xib in Resources */,
+				936D7A532CDFA3710088723D /* GoodHabitViewController.xib in Resources */,
 				9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */,
 				93FE12152CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib in Resources */,
+				93FC73F92CDF376000F425C6 /* TimeViewController.xib in Resources */,
+				931C5D012CDE20B500D6802F /* TabbarView.xib in Resources */,
 				93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */,
 				93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */,
 				93FE11CA2CDA5B9300D674BC /* Base in Resources */,
+				936D7A4E2CDFA3400088723D /* BadHabitViewController.xib in Resources */,
+				931C5CFC2CDE1FD900D6802F /* TabbarViewController.xib in Resources */,
 				93FE11C52CDA5B9200D674BC /* Base in Resources */,
 				93FE11FF2CDA886A00D674BC /* SignUpViewController.xib in Resources */,
 				93FE12112CDA96D800D674BC /* OnboardingCollectionViewCell.xib in Resources */,
 				93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */,
+				93FC74022CDF5E9600F425C6 /* AddHabitViewController.xib in Resources */,
 				9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */,
 				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
+				93FC73FD2CDF377700F425C6 /* StoreViewController.xib in Resources */,
 				935060882CDCF92700F62B89 /* SurveyViewController.xib in Resources */,
+				93FC73ED2CDF36F500F425C6 /* MenuViewController.xib in Resources */,
+				93FC73F42CDF375000F425C6 /* BookViewController.xib in Resources */,
 				9360ECEC2CDD1F370097D38C /* QuestionCollectionViewCell.xib in Resources */,
 				93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */,
 			);
@@ -515,7 +646,9 @@
 				93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */,
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
 				9360ECED2CDD1F370097D38C /* QuestionCollectionViewCell.swift in Sources */,
+				931C5CFB2CDE1FD900D6802F /* TabbarViewController.swift in Sources */,
 				93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */,
+				93FC73EC2CDF36F500F425C6 /* MenuViewController.swift in Sources */,
 				93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */,
 				93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */,
 				93FE12022CDA888D00D674BC /* HomeViewController.swift in Sources */,
@@ -524,18 +657,26 @@
 				9360ECF02CDD21600097D38C /* SurveyModel.swift in Sources */,
 				935060872CDCF92700F62B89 /* SurveyViewController.swift in Sources */,
 				93FE11F12CDA880700D674BC /* Extension-TableViewRegister.swift in Sources */,
+				93FC73F82CDF376000F425C6 /* TimeViewController.swift in Sources */,
 				93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */,
 				9350608C2CDD028300F62B89 /* SurveyCollectionViewCell.swift in Sources */,
+				936D7A4A2CDF6DFA0088723D /* UIView+Corner.swift in Sources */,
 				931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */,
+				931C5CFF2CDE20A000D6802F /* TabbarView.swift in Sources */,
 				93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */,
+				93FC73FC2CDF377700F425C6 /* StoreViewController.swift in Sources */,
 				93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */,
 				93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */,
 				93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */,
 				93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */,
+				93FC74012CDF5E9600F425C6 /* AddHabitViewController.swift in Sources */,
 				931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */,
+				936D7A542CDFA3710088723D /* GoodHabitViewController.swift in Sources */,
 				93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */,
 				9360ECE92CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift in Sources */,
 				93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */,
+				936D7A4F2CDFA3400088723D /* BadHabitViewController.swift in Sources */,
+				93FC73F32CDF375000F425C6 /* BookViewController.swift in Sources */,
 				93FE12142CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift in Sources */,
 				93FE12102CDA96D800D674BC /* OnboardingCollectionViewCell.swift in Sources */,
 			);

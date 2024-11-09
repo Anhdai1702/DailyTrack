@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Check first boot status
         if defaultStorage.noFirstTimeLaunch {
             // If not the first time, go directly to the main screen
-            let mainVC = HomeViewController()
+            let mainVC = TabbarViewController()
             let navi = UINavigationController(rootViewController: mainVC)
             window.rootViewController = navi
         } else {
