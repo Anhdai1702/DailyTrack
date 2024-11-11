@@ -20,5 +20,6 @@ target 'DailyTrackTestApp' do
   pod 'Mixpanel-swift'
   pod 'Firebase/Auth'
   pod 'FirebaseAppCheckInterop'
+  pod 'FSCalendar'
 
 end

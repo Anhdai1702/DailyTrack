@@ -30,6 +30,8 @@
 		936D7A4F2CDFA3400088723D /* BadHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A4C2CDFA3400088723D /* BadHabitViewController.swift */; };
 		936D7A532CDFA3710088723D /* GoodHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936D7A522CDFA3710088723D /* GoodHabitViewController.xib */; };
 		936D7A542CDFA3710088723D /* GoodHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A512CDFA3710088723D /* GoodHabitViewController.swift */; };
+		938F844D2CE1070E00F74BB4 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938F844B2CE1070E00F74BB4 /* TimeManager.swift */; };
+		938F84502CE107EA00F74BB4 /* ConnectedArcsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938F844E2CE107EA00F74BB4 /* ConnectedArcsView.swift */; };
 		93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57D932CDBBB740049F41E /* TextField+Extension.swift */; };
 		93FC73EC2CDF36F500F425C6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */; };
 		93FC73ED2CDF36F500F425C6 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */; };
@@ -99,6 +101,8 @@
 		936D7A4D2CDFA3400088723D /* BadHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadHabitViewController.xib; sourceTree = "<group>"; };
 		936D7A512CDFA3710088723D /* GoodHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodHabitViewController.swift; sourceTree = "<group>"; };
 		936D7A522CDFA3710088723D /* GoodHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodHabitViewController.xib; sourceTree = "<group>"; };
+		938F844B2CE1070E00F74BB4 /* TimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		938F844E2CE107EA00F74BB4 /* ConnectedArcsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedArcsView.swift; sourceTree = "<group>"; };
 		93E57D932CDBBB740049F41E /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
@@ -240,6 +244,22 @@
 			path = "GoodHabitViewControllẻ";
 			sourceTree = "<group>";
 		};
+		938F844C2CE1070E00F74BB4 /* TimeManager */ = {
+			isa = PBXGroup;
+			children = (
+				938F844B2CE1070E00F74BB4 /* TimeManager.swift */,
+			);
+			path = TimeManager;
+			sourceTree = "<group>";
+		};
+		938F844F2CE107EA00F74BB4 /* ConnectedArcsView */ = {
+			isa = PBXGroup;
+			children = (
+				938F844E2CE107EA00F74BB4 /* ConnectedArcsView.swift */,
+			);
+			path = ConnectedArcsView;
+			sourceTree = "<group>";
+		};
 		93FC73E92CDF36D600F425C6 /* MenuViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +370,7 @@
 		93FE11D72CDA816100D674BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				938F844F2CE107EA00F74BB4 /* ConnectedArcsView */,
 				931C5CFD2CDE204900D6802F /* TabbarView */,
 				931AA3ED2CDBD1DE002B3FB9 /* NoCopyPasteTextView */,
 			);
@@ -439,6 +460,7 @@
 		93FE11E62CDA880700D674BC /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				938F844C2CE1070E00F74BB4 /* TimeManager */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -661,10 +683,12 @@
 				93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */,
 				9350608C2CDD028300F62B89 /* SurveyCollectionViewCell.swift in Sources */,
 				936D7A4A2CDF6DFA0088723D /* UIView+Corner.swift in Sources */,
+				938F844D2CE1070E00F74BB4 /* TimeManager.swift in Sources */,
 				931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */,
 				931C5CFF2CDE20A000D6802F /* TabbarView.swift in Sources */,
 				93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */,
 				93FC73FC2CDF377700F425C6 /* StoreViewController.swift in Sources */,
+				938F84502CE107EA00F74BB4 /* ConnectedArcsView.swift in Sources */,
 				93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */,
 				93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */,
 				93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */,
