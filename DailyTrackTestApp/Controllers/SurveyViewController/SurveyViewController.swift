@@ -91,7 +91,7 @@ extension SurveyViewController {
             moveToItem(at: IndexPath(item: currentPage, section: 0))
         }
         else {
-            moveToNextScreen(with: HomeViewController())
+            moveToNextScreen(with: TabbarViewController())
         }
     }
     

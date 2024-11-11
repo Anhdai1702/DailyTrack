@@ -84,6 +84,7 @@ PODS:
     - nanopb (~> 3.30910.0)
     - PromisesSwift (~> 2.1)
   - FirebaseSharedSwift (11.2.0)
+  - FSCalendar (2.8.4)
   - GoogleAppMeasurement (11.2.0):
     - GoogleAppMeasurement/AdIdSupport (= 11.2.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
@@ -170,6 +171,7 @@ DEPENDENCIES:
   - Firebase/Crashlytics
   - FirebaseAppCheckInterop
   - FirebaseRemoteConfig
+  - FSCalendar
   - lottie-ios
   - Mixpanel-swift
   - NVActivityIndicatorView
@@ -196,6 +198,7 @@ SPEC REPOS:
     - FirebaseRemoteConfigInterop
     - FirebaseSessions
     - FirebaseSharedSwift
+    - FSCalendar
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
@@ -230,6 +233,7 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfigInterop: 477b26fdeb8fb5fbaf22fa9db5343b42289dc7db
   FirebaseSessions: adcec8b72d0066a385e3affcd1bcb1ebb3908ce6
   FirebaseSharedSwift: 7a0d78d155ede78407f0fdc89fbc914014c7c540
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
   GoogleAppMeasurement: 76d4f8b36b03bd8381fa9a7fe2cc7f99c0a2e93a
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
@@ -248,6 +252,6 @@ SPEC CHECKSUMS:
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: a02b8c70515c6841194a95d3188ba44a2127c775
+PODFILE CHECKSUM: 4a14e6b51ab060467ae658a7e095f3349bbfe583
 
 COCOAPODS: 1.14.3
