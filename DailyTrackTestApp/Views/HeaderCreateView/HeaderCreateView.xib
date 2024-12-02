@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderCreateView" customModule="DailyTrackTestApp" customModuleProvider="target">
+            <connections>
+                <outlet property="themeImage" destination="Sdr-e2-N2B" id="shF-EK-OMJ"/>
+                <outlet property="titleLabel" destination="leH-Ce-zSW" id="gBQ-u5-1Oa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="187"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-Nf-PJB">
+                    <rect key="frame" x="0.0" y="69.666666666666671" width="48" height="48"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="createNewHabit_selectIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Sdr-e2-N2B">
+                            <rect key="frame" x="14" y="14" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="MKm-xT-joL"/>
+                                <constraint firstAttribute="height" constant="20" id="qWN-vr-NZH"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bE1-9c-hkJ">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <connections>
+                                <action selector="didTapSelectIcon:" destination="-1" eventType="touchUpInside" id="INI-o7-9GC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.92549019607843142" blue="0.94117647058823528" alpha="0.040950951986754969" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="3VI-iN-g4r"/>
+                        <constraint firstAttribute="bottom" secondItem="bE1-9c-hkJ" secondAttribute="bottom" id="8Te-WI-6DJ"/>
+                        <constraint firstAttribute="trailing" secondItem="bE1-9c-hkJ" secondAttribute="trailing" id="MG2-cm-Mqa"/>
+                        <constraint firstAttribute="width" constant="48" id="aFe-9u-M6j"/>
+                        <constraint firstItem="bE1-9c-hkJ" firstAttribute="leading" secondItem="C8I-Nf-PJB" secondAttribute="leading" id="evc-S8-GyH"/>
+                        <constraint firstItem="Sdr-e2-N2B" firstAttribute="centerX" secondItem="C8I-Nf-PJB" secondAttribute="centerX" id="fub-PM-OxB"/>
+                        <constraint firstItem="bE1-9c-hkJ" firstAttribute="top" secondItem="C8I-Nf-PJB" secondAttribute="top" id="hEX-za-NcO"/>
+                        <constraint firstItem="Sdr-e2-N2B" firstAttribute="centerY" secondItem="C8I-Nf-PJB" secondAttribute="centerY" id="kgo-v3-1WD"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBL-KA-x5X">
+                    <rect key="frame" x="58" y="69.666666666666671" width="334" height="48"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leH-Ce-zSW">
+                            <rect key="frame" x="20" y="13.333333333333329" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.54117647058823526" green="0.55686274509803924" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96470588235294119" blue="0.98039215686274506" alpha="0.03895902317880795" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="leH-Ce-zSW" firstAttribute="leading" secondItem="fBL-KA-x5X" secondAttribute="leading" constant="20" id="H1i-UE-WRi"/>
+                        <constraint firstAttribute="height" constant="48" id="Osi-VG-icy"/>
+                        <constraint firstItem="leH-Ce-zSW" firstAttribute="centerY" secondItem="fBL-KA-x5X" secondAttribute="centerY" id="Y7I-og-pCl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="C8I-Nf-PJB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="I7G-7x-kvg"/>
+                <constraint firstItem="fBL-KA-x5X" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="KNi-TD-ehJ"/>
+                <constraint firstItem="C8I-Nf-PJB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ksl-Sl-SKg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fBL-KA-x5X" secondAttribute="trailing" id="Ngj-M8-jkQ"/>
+                <constraint firstItem="fBL-KA-x5X" firstAttribute="leading" secondItem="C8I-Nf-PJB" secondAttribute="trailing" constant="10" id="duc-T7-DB8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="129.7709923664122" y="-116.54929577464789"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="createNewHabit_selectIcon" width="18" height="18"/>
+    </resources>
+</document>

@@ -7,24 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930BDA1A2CE8AECE00915207 /* HeaderCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BDA172CE8AECE00915207 /* HeaderCreateView.swift */; };
+		930BDA1B2CE8AECE00915207 /* HeaderCreateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930BDA182CE8AECE00915207 /* HeaderCreateView.xib */; };
+		930BDA1F2CE8AFE000915207 /* SelectIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930BDA1E2CE8AFE000915207 /* SelectIconViewController.xib */; };
+		930BDA202CE8AFE000915207 /* SelectIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BDA1D2CE8AFE000915207 /* SelectIconViewController.swift */; };
+		930BDA222CE8B01500915207 /* BlurEffect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BDA212CE8B01500915207 /* BlurEffect+Extension.swift */; };
+		930BDA262CE8CA5E00915207 /* SelectIconCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930BDA252CE8CA5E00915207 /* SelectIconCollectionViewCell.xib */; };
+		930BDA272CE8CA5E00915207 /* SelectIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BDA242CE8CA5E00915207 /* SelectIconCollectionViewCell.swift */; };
+		9310247C2CF79AD200149B95 /* TimeOfDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9310247B2CF79AD200149B95 /* TimeOfDayViewController.xib */; };
+		9310247D2CF79AD200149B95 /* TimeOfDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310247A2CF79AD200149B95 /* TimeOfDayViewController.swift */; };
+		931024802CF79C7400149B95 /* StartDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9310247F2CF79C7400149B95 /* StartDateViewController.xib */; };
+		931024812CF79C7400149B95 /* StartDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310247E2CF79C7400149B95 /* StartDateViewController.swift */; };
 		931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */; };
 		931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */; };
+		931B08812CE6784400612781 /* SelectIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B08802CE6784400612781 /* SelectIconModel.swift */; };
+		931B08922CE755F700612781 /* RepeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B08912CE755F700612781 /* RepeatModel.swift */; };
+		931B08992CE7C9B600612781 /* RepeatViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931B08982CE7C9B600612781 /* RepeatViewViewController.xib */; };
+		931B089A2CE7C9B600612781 /* RepeatViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B08972CE7C9B600612781 /* RepeatViewViewController.swift */; };
 		931C5CFB2CDE1FD900D6802F /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C5CF92CDE1FD900D6802F /* TabbarViewController.swift */; };
 		931C5CFC2CDE1FD900D6802F /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C5CFA2CDE1FD900D6802F /* TabbarViewController.xib */; };
 		931C5CFF2CDE20A000D6802F /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C5CFE2CDE20A000D6802F /* TabbarView.swift */; };
 		931C5D012CDE20B500D6802F /* TabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C5D002CDE20B500D6802F /* TabbarView.xib */; };
+		931FC4322CE7CE460033B1C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931FC4312CE7CE460033B1C6 /* UIView+Extension.swift */; };
+		932FEB382CF2529500A6454A /* RepeatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FEB362CF2529500A6454A /* RepeatTableViewCell.swift */; };
+		932FEB392CF2529500A6454A /* RepeatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FEB372CF2529500A6454A /* RepeatTableViewCell.xib */; };
 		9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9349FC482CDC41D40048E90B /* GoogleService-Info.plist */; };
+		934CA1D52CE49D2F0046104F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934CA1D42CE49D2F0046104F /* GradientView.swift */; };
+		934CA1DF2CE4A51F0046104F /* NewHabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934CA1DE2CE4A51F0046104F /* NewHabitModel.swift */; };
+		934CA1E22CE4ACF60046104F /* NewHabitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 934CA1E12CE4ACF60046104F /* NewHabitCollectionViewCell.xib */; };
+		934CA1E32CE4ACF60046104F /* NewHabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934CA1E02CE4ACF60046104F /* NewHabitCollectionViewCell.swift */; };
 		9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */; };
 		9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */; };
 		935060872CDCF92700F62B89 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935060852CDCF92700F62B89 /* SurveyViewController.swift */; };
 		935060882CDCF92700F62B89 /* SurveyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935060862CDCF92700F62B89 /* SurveyViewController.xib */; };
 		9350608C2CDD028300F62B89 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350608A2CDD028300F62B89 /* SurveyCollectionViewCell.swift */; };
 		9350608D2CDD028300F62B89 /* SurveyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9350608B2CDD028300F62B89 /* SurveyCollectionViewCell.xib */; };
+		93510D172CE83D0D00685403 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93510D152CE83D0D00685403 /* RemindersViewController.swift */; };
+		93510D182CE83D0D00685403 /* RemindersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93510D162CE83D0D00685403 /* RemindersViewController.xib */; };
+		93510D222CE83F8700685403 /* RemindersCustomViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93510D202CE83F8700685403 /* RemindersCustomViewTableViewCell.swift */; };
+		93510D232CE83F8700685403 /* RemindersCustomViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93510D212CE83F8700685403 /* RemindersCustomViewTableViewCell.xib */; };
 		9360ECE82CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9360ECE72CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib */; };
 		9360ECE92CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECE62CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift */; };
 		9360ECEC2CDD1F370097D38C /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */; };
 		9360ECED2CDD1F370097D38C /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */; };
 		9360ECF02CDD21600097D38C /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360ECEF2CDD21600097D38C /* SurveyModel.swift */; };
+		9362EACF2CF972F500F38650 /* TimeOfDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9362EACD2CF972F500F38650 /* TimeOfDayTableViewCell.swift */; };
+		9362EAD02CF972F500F38650 /* TimeOfDayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9362EACE2CF972F500F38650 /* TimeOfDayTableViewCell.xib */; };
+		9362EAD32CF973C000F38650 /* TimeOfDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9362EAD22CF973C000F38650 /* TimeOfDayModel.swift */; };
 		936D7A4A2CDF6DFA0088723D /* UIView+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A492CDF6DFA0088723D /* UIView+Corner.swift */; };
 		936D7A4E2CDFA3400088723D /* BadHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936D7A4D2CDFA3400088723D /* BadHabitViewController.xib */; };
 		936D7A4F2CDFA3400088723D /* BadHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A4C2CDFA3400088723D /* BadHabitViewController.swift */; };
@@ -32,7 +61,25 @@
 		936D7A542CDFA3710088723D /* GoodHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D7A512CDFA3710088723D /* GoodHabitViewController.swift */; };
 		938F844D2CE1070E00F74BB4 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938F844B2CE1070E00F74BB4 /* TimeManager.swift */; };
 		938F84502CE107EA00F74BB4 /* ConnectedArcsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938F844E2CE107EA00F74BB4 /* ConnectedArcsView.swift */; };
+		938F84542CE367D300F74BB4 /* NewHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938F84532CE367D300F74BB4 /* NewHabitViewController.xib */; };
+		938F84552CE367D300F74BB4 /* NewHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938F84522CE367D300F74BB4 /* NewHabitViewController.swift */; };
+		93C7A0B32CF9529D0052911B /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A0B22CF9529D0052911B /* TimeView.swift */; };
+		93C7A0B52CF952AD0052911B /* TimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C7A0B42CF952AD0052911B /* TimeView.xib */; };
+		93C7A0BA2CF953B40052911B /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A0B82CF953B40052911B /* TimeTableViewCell.swift */; };
+		93C7A0BB2CF953B40052911B /* TimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C7A0B92CF953B40052911B /* TimeTableViewCell.xib */; };
+		93C7A0BE2CF95AF20052911B /* PerDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A0BD2CF95AF20052911B /* PerDayView.swift */; };
+		93C7A0C02CF95AFE0052911B /* PerDayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C7A0BF2CF95AFE0052911B /* PerDayView.xib */; };
+		93C7A0C42CF95B450052911B /* PerDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A0C22CF95B450052911B /* PerDayTableViewCell.swift */; };
+		93C7A0C52CF95B450052911B /* PerDayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C7A0C32CF95B450052911B /* PerDayTableViewCell.xib */; };
 		93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57D932CDBBB740049F41E /* TextField+Extension.swift */; };
+		93E819B22CF2F49F002D695B /* CustomSegmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E819AC2CF2F49E002D695B /* CustomSegmentViewCell.swift */; };
+		93E819B32CF2F49F002D695B /* CustomSegmentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E819AD2CF2F49E002D695B /* CustomSegmentViewCell.xib */; };
+		93E819B42CF2F49F002D695B /* SegmentCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E819AF2CF2F49E002D695B /* SegmentCustomView.swift */; };
+		93E819B52CF2F49F002D695B /* SegmentCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E819B02CF2F49E002D695B /* SegmentCustomView.xib */; };
+		93E819B82CF4CB8C002D695B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E819B72CF4CB8C002D695B /* CalendarView.swift */; };
+		93E819BA2CF4CBA0002D695B /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E819B92CF4CBA0002D695B /* CalendarView.xib */; };
+		93E819BD2CF792EE002D695B /* GoalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E819BC2CF792EE002D695B /* GoalViewController.xib */; };
+		93E819BE2CF792EE002D695B /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E819BB2CF792EE002D695B /* GoalViewController.swift */; };
 		93FC73EC2CDF36F500F425C6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */; };
 		93FC73ED2CDF36F500F425C6 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */; };
 		93FC73F32CDF375000F425C6 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC73F12CDF375000F425C6 /* BookViewController.swift */; };
@@ -78,24 +125,53 @@
 /* Begin PBXFileReference section */
 		016C9567490F9ADC683AD53D /* Pods_DailyTrackTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyTrackTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		704B0E02F5CD3273F6F4F5C2 /* Pods-DailyTrackTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyTrackTestApp.release.xcconfig"; path = "Target Support Files/Pods-DailyTrackTestApp/Pods-DailyTrackTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		930BDA172CE8AECE00915207 /* HeaderCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCreateView.swift; sourceTree = "<group>"; };
+		930BDA182CE8AECE00915207 /* HeaderCreateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCreateView.xib; sourceTree = "<group>"; };
+		930BDA1D2CE8AFE000915207 /* SelectIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIconViewController.swift; sourceTree = "<group>"; };
+		930BDA1E2CE8AFE000915207 /* SelectIconViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectIconViewController.xib; sourceTree = "<group>"; };
+		930BDA212CE8B01500915207 /* BlurEffect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BlurEffect+Extension.swift"; sourceTree = "<group>"; };
+		930BDA242CE8CA5E00915207 /* SelectIconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIconCollectionViewCell.swift; sourceTree = "<group>"; };
+		930BDA252CE8CA5E00915207 /* SelectIconCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectIconCollectionViewCell.xib; sourceTree = "<group>"; };
+		9310247A2CF79AD200149B95 /* TimeOfDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayViewController.swift; sourceTree = "<group>"; };
+		9310247B2CF79AD200149B95 /* TimeOfDayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeOfDayViewController.xib; sourceTree = "<group>"; };
+		9310247E2CF79C7400149B95 /* StartDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartDateViewController.swift; sourceTree = "<group>"; };
+		9310247F2CF79C7400149B95 /* StartDateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartDateViewController.xib; sourceTree = "<group>"; };
 		931AA3EB2CDBCFFD002B3FB9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCopyPasteTextView.swift; sourceTree = "<group>"; };
+		931B08802CE6784400612781 /* SelectIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIconModel.swift; sourceTree = "<group>"; };
+		931B08912CE755F700612781 /* RepeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatModel.swift; sourceTree = "<group>"; };
+		931B08972CE7C9B600612781 /* RepeatViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatViewViewController.swift; sourceTree = "<group>"; };
+		931B08982CE7C9B600612781 /* RepeatViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepeatViewViewController.xib; sourceTree = "<group>"; };
 		931C5CF92CDE1FD900D6802F /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		931C5CFA2CDE1FD900D6802F /* TabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
 		931C5CFE2CDE20A000D6802F /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		931C5D002CDE20B500D6802F /* TabbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarView.xib; sourceTree = "<group>"; };
+		931FC4312CE7CE460033B1C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		932FEB362CF2529500A6454A /* RepeatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTableViewCell.swift; sourceTree = "<group>"; };
+		932FEB372CF2529500A6454A /* RepeatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepeatTableViewCell.xib; sourceTree = "<group>"; };
 		9349FC482CDC41D40048E90B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		934CA1D42CE49D2F0046104F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		934CA1DE2CE4A51F0046104F /* NewHabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitModel.swift; sourceTree = "<group>"; };
+		934CA1E02CE4ACF60046104F /* NewHabitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitCollectionViewCell.swift; sourceTree = "<group>"; };
+		934CA1E12CE4ACF60046104F /* NewHabitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewHabitCollectionViewCell.xib; sourceTree = "<group>"; };
 		9350607C2CDCC1B100F62B89 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9350607D2CDCC1B100F62B89 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		935060852CDCF92700F62B89 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		935060862CDCF92700F62B89 /* SurveyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyViewController.xib; sourceTree = "<group>"; };
 		9350608A2CDD028300F62B89 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
 		9350608B2CDD028300F62B89 /* SurveyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyCollectionViewCell.xib; sourceTree = "<group>"; };
+		93510D152CE83D0D00685403 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		93510D162CE83D0D00685403 /* RemindersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersViewController.xib; sourceTree = "<group>"; };
+		93510D202CE83F8700685403 /* RemindersCustomViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersCustomViewTableViewCell.swift; sourceTree = "<group>"; };
+		93510D212CE83F8700685403 /* RemindersCustomViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersCustomViewTableViewCell.xib; sourceTree = "<group>"; };
 		9360ECE62CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		9360ECE72CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurveyQuestionCollectionViewCell.xib; sourceTree = "<group>"; };
 		9360ECEA2CDD1F370097D38C /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		9360ECEB2CDD1F370097D38C /* QuestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionCollectionViewCell.xib; sourceTree = "<group>"; };
 		9360ECEF2CDD21600097D38C /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		9362EACD2CF972F500F38650 /* TimeOfDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayTableViewCell.swift; sourceTree = "<group>"; };
+		9362EACE2CF972F500F38650 /* TimeOfDayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeOfDayTableViewCell.xib; sourceTree = "<group>"; };
+		9362EAD22CF973C000F38650 /* TimeOfDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayModel.swift; sourceTree = "<group>"; };
 		936D7A492CDF6DFA0088723D /* UIView+Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corner.swift"; sourceTree = "<group>"; };
 		936D7A4C2CDFA3400088723D /* BadHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadHabitViewController.swift; sourceTree = "<group>"; };
 		936D7A4D2CDFA3400088723D /* BadHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadHabitViewController.xib; sourceTree = "<group>"; };
@@ -103,7 +179,25 @@
 		936D7A522CDFA3710088723D /* GoodHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodHabitViewController.xib; sourceTree = "<group>"; };
 		938F844B2CE1070E00F74BB4 /* TimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
 		938F844E2CE107EA00F74BB4 /* ConnectedArcsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedArcsView.swift; sourceTree = "<group>"; };
+		938F84522CE367D300F74BB4 /* NewHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitViewController.swift; sourceTree = "<group>"; };
+		938F84532CE367D300F74BB4 /* NewHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewHabitViewController.xib; sourceTree = "<group>"; };
+		93C7A0B22CF9529D0052911B /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		93C7A0B42CF952AD0052911B /* TimeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeView.xib; sourceTree = "<group>"; };
+		93C7A0B82CF953B40052911B /* TimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		93C7A0B92CF953B40052911B /* TimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeTableViewCell.xib; sourceTree = "<group>"; };
+		93C7A0BD2CF95AF20052911B /* PerDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerDayView.swift; sourceTree = "<group>"; };
+		93C7A0BF2CF95AFE0052911B /* PerDayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerDayView.xib; sourceTree = "<group>"; };
+		93C7A0C22CF95B450052911B /* PerDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerDayTableViewCell.swift; sourceTree = "<group>"; };
+		93C7A0C32CF95B450052911B /* PerDayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerDayTableViewCell.xib; sourceTree = "<group>"; };
 		93E57D932CDBBB740049F41E /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		93E819AC2CF2F49E002D695B /* CustomSegmentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentViewCell.swift; sourceTree = "<group>"; };
+		93E819AD2CF2F49E002D695B /* CustomSegmentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSegmentViewCell.xib; sourceTree = "<group>"; };
+		93E819AF2CF2F49E002D695B /* SegmentCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentCustomView.swift; sourceTree = "<group>"; };
+		93E819B02CF2F49E002D695B /* SegmentCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentCustomView.xib; sourceTree = "<group>"; };
+		93E819B72CF4CB8C002D695B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		93E819B92CF4CBA0002D695B /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
+		93E819BB2CF792EE002D695B /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		93E819BC2CF792EE002D695B /* GoalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalViewController.xib; sourceTree = "<group>"; };
 		93FC73EA2CDF36F500F425C6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		93FC73EB2CDF36F500F425C6 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		93FC73F12CDF375000F425C6 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
@@ -169,12 +263,101 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		930BDA192CE8AECE00915207 /* HeaderCreateView */ = {
+			isa = PBXGroup;
+			children = (
+				930BDA172CE8AECE00915207 /* HeaderCreateView.swift */,
+				930BDA182CE8AECE00915207 /* HeaderCreateView.xib */,
+			);
+			path = HeaderCreateView;
+			sourceTree = "<group>";
+		};
+		930BDA1C2CE8AFC400915207 /* SelectIconViewController */ = {
+			isa = PBXGroup;
+			children = (
+				930BDA1D2CE8AFE000915207 /* SelectIconViewController.swift */,
+				930BDA1E2CE8AFE000915207 /* SelectIconViewController.xib */,
+			);
+			path = SelectIconViewController;
+			sourceTree = "<group>";
+		};
+		930BDA232CE8CA3800915207 /* SelectIconCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				930BDA242CE8CA5E00915207 /* SelectIconCollectionViewCell.swift */,
+				930BDA252CE8CA5E00915207 /* SelectIconCollectionViewCell.xib */,
+			);
+			path = SelectIconCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		930BDA282CE8CF2000915207 /* RepeatTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				932FEB362CF2529500A6454A /* RepeatTableViewCell.swift */,
+				932FEB372CF2529500A6454A /* RepeatTableViewCell.xib */,
+			);
+			path = RepeatTableViewCell;
+			sourceTree = "<group>";
+		};
 		931AA3ED2CDBD1DE002B3FB9 /* NoCopyPasteTextView */ = {
 			isa = PBXGroup;
 			children = (
 				931AA3EE2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift */,
 			);
 			path = NoCopyPasteTextView;
+			sourceTree = "<group>";
+		};
+		931B087F2CE677F300612781 /* SelectIconModel */ = {
+			isa = PBXGroup;
+			children = (
+				931B08802CE6784400612781 /* SelectIconModel.swift */,
+			);
+			path = SelectIconModel;
+			sourceTree = "<group>";
+		};
+		931B08902CE755DB00612781 /* RepeatModel */ = {
+			isa = PBXGroup;
+			children = (
+				931B08912CE755F700612781 /* RepeatModel.swift */,
+			);
+			path = RepeatModel;
+			sourceTree = "<group>";
+		};
+		931B08932CE7C8A700612781 /* RepeatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				931B08972CE7C9B600612781 /* RepeatViewViewController.swift */,
+				931B08982CE7C9B600612781 /* RepeatViewViewController.xib */,
+			);
+			path = RepeatViewController;
+			sourceTree = "<group>";
+		};
+		931B08942CE7C95D00612781 /* GoalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A0B12CF9527F0052911B /* GoalView */,
+				93E819BB2CF792EE002D695B /* GoalViewController.swift */,
+				93E819BC2CF792EE002D695B /* GoalViewController.xib */,
+			);
+			path = GoalViewController;
+			sourceTree = "<group>";
+		};
+		931B08952CE7C96E00612781 /* TimeOfDayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9310247A2CF79AD200149B95 /* TimeOfDayViewController.swift */,
+				9310247B2CF79AD200149B95 /* TimeOfDayViewController.xib */,
+			);
+			path = TimeOfDayViewController;
+			sourceTree = "<group>";
+		};
+		931B08962CE7C97E00612781 /* StartDateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9310247E2CF79C7400149B95 /* StartDateViewController.swift */,
+				9310247F2CF79C7400149B95 /* StartDateViewController.xib */,
+			);
+			path = StartDateViewController;
 			sourceTree = "<group>";
 		};
 		931C5CFD2CDE204900D6802F /* TabbarView */ = {
@@ -184,6 +367,31 @@
 				931C5D002CDE20B500D6802F /* TabbarView.xib */,
 			);
 			path = TabbarView;
+			sourceTree = "<group>";
+		};
+		934CA1D32CE49D0C0046104F /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				934CA1D42CE49D2F0046104F /* GradientView.swift */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		934CA1D62CE4A2840046104F /* NewHabitCell */ = {
+			isa = PBXGroup;
+			children = (
+				934CA1E02CE4ACF60046104F /* NewHabitCollectionViewCell.swift */,
+				934CA1E12CE4ACF60046104F /* NewHabitCollectionViewCell.xib */,
+			);
+			path = NewHabitCell;
+			sourceTree = "<group>";
+		};
+		934CA1DD2CE4A50C0046104F /* NewHabitModel */ = {
+			isa = PBXGroup;
+			children = (
+				934CA1DE2CE4A51F0046104F /* NewHabitModel.swift */,
+			);
+			path = NewHabitModel;
 			sourceTree = "<group>";
 		};
 		9350607B2CDCC17900F62B89 /* ForgotPasswordViewController */ = {
@@ -217,12 +425,38 @@
 			path = SurveyViewCell;
 			sourceTree = "<group>";
 		};
+		93510D1F2CE83F6E00685403 /* RemindersCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				93510D202CE83F8700685403 /* RemindersCustomViewTableViewCell.swift */,
+				93510D212CE83F8700685403 /* RemindersCustomViewTableViewCell.xib */,
+			);
+			path = RemindersCustomCell;
+			sourceTree = "<group>";
+		};
 		9360ECEE2CDD21490097D38C /* SurveyModel */ = {
 			isa = PBXGroup;
 			children = (
 				9360ECEF2CDD21600097D38C /* SurveyModel.swift */,
 			);
 			path = SurveyModel;
+			sourceTree = "<group>";
+		};
+		9362EACC2CF972C900F38650 /* TimeOfDayCell */ = {
+			isa = PBXGroup;
+			children = (
+				9362EACD2CF972F500F38650 /* TimeOfDayTableViewCell.swift */,
+				9362EACE2CF972F500F38650 /* TimeOfDayTableViewCell.xib */,
+			);
+			path = TimeOfDayCell;
+			sourceTree = "<group>";
+		};
+		9362EAD12CF973A500F38650 /* TimeOfDayModel */ = {
+			isa = PBXGroup;
+			children = (
+				9362EAD22CF973C000F38650 /* TimeOfDayModel.swift */,
+			);
+			path = TimeOfDayModel;
 			sourceTree = "<group>";
 		};
 		936D7A4B2CDFA3220088723D /* BadHabitViewController */ = {
@@ -244,6 +478,20 @@
 			path = "GoodHabitViewControllẻ";
 			sourceTree = "<group>";
 		};
+		9384DE872CE66F7E00A167BB /* RemindersViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				930BDA1C2CE8AFC400915207 /* SelectIconViewController */,
+				931B08962CE7C97E00612781 /* StartDateViewController */,
+				931B08952CE7C96E00612781 /* TimeOfDayViewController */,
+				931B08942CE7C95D00612781 /* GoalViewController */,
+				931B08932CE7C8A700612781 /* RepeatViewController */,
+				93510D152CE83D0D00685403 /* RemindersViewController.swift */,
+				93510D162CE83D0D00685403 /* RemindersViewController.xib */,
+			);
+			path = RemindersViewcontroller;
+			sourceTree = "<group>";
+		};
 		938F844C2CE1070E00F74BB4 /* TimeManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +506,90 @@
 				938F844E2CE107EA00F74BB4 /* ConnectedArcsView.swift */,
 			);
 			path = ConnectedArcsView;
+			sourceTree = "<group>";
+		};
+		938F84512CE3599800F74BB4 /* NewHabitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				938F84522CE367D300F74BB4 /* NewHabitViewController.swift */,
+				938F84532CE367D300F74BB4 /* NewHabitViewController.xib */,
+			);
+			path = NewHabitViewController;
+			sourceTree = "<group>";
+		};
+		93C7A0B12CF9527F0052911B /* GoalView */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A0BC2CF95ADA0052911B /* PerDayView */,
+				93C7A0B62CF9537D0052911B /* TimeView */,
+			);
+			path = GoalView;
+			sourceTree = "<group>";
+		};
+		93C7A0B62CF9537D0052911B /* TimeView */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A0B72CF953960052911B /* TimeTableViewCell */,
+				93C7A0B22CF9529D0052911B /* TimeView.swift */,
+				93C7A0B42CF952AD0052911B /* TimeView.xib */,
+			);
+			path = TimeView;
+			sourceTree = "<group>";
+		};
+		93C7A0B72CF953960052911B /* TimeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A0B82CF953B40052911B /* TimeTableViewCell.swift */,
+				93C7A0B92CF953B40052911B /* TimeTableViewCell.xib */,
+			);
+			path = TimeTableViewCell;
+			sourceTree = "<group>";
+		};
+		93C7A0BC2CF95ADA0052911B /* PerDayView */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A0C12CF95B260052911B /* PerDayTableView */,
+				93C7A0BD2CF95AF20052911B /* PerDayView.swift */,
+				93C7A0BF2CF95AFE0052911B /* PerDayView.xib */,
+			);
+			path = PerDayView;
+			sourceTree = "<group>";
+		};
+		93C7A0C12CF95B260052911B /* PerDayTableView */ = {
+			isa = PBXGroup;
+			children = (
+				93C7A0C22CF95B450052911B /* PerDayTableViewCell.swift */,
+				93C7A0C32CF95B450052911B /* PerDayTableViewCell.xib */,
+			);
+			path = PerDayTableView;
+			sourceTree = "<group>";
+		};
+		93E819AE2CF2F49E002D695B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93E819AC2CF2F49E002D695B /* CustomSegmentViewCell.swift */,
+				93E819AD2CF2F49E002D695B /* CustomSegmentViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		93E819B12CF2F49E002D695B /* SegmentCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				93E819AE2CF2F49E002D695B /* Cells */,
+				93E819AF2CF2F49E002D695B /* SegmentCustomView.swift */,
+				93E819B02CF2F49E002D695B /* SegmentCustomView.xib */,
+			);
+			path = SegmentCustomView;
+			sourceTree = "<group>";
+		};
+		93E819B62CF4CB58002D695B /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				93E819B72CF4CB8C002D695B /* CalendarView.swift */,
+				93E819B92CF4CBA0002D695B /* CalendarView.xib */,
+			);
+			path = CalendarView;
 			sourceTree = "<group>";
 		};
 		93FC73E92CDF36D600F425C6 /* MenuViewController */ = {
@@ -299,6 +631,8 @@
 		93FC73FE2CDF5E7D00F425C6 /* AddHabitViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9384DE872CE66F7E00A167BB /* RemindersViewcontroller */,
+				938F84512CE3599800F74BB4 /* NewHabitViewController */,
 				936D7A502CDFA34C0088723D /* GoodHabitViewController */,
 				936D7A4B2CDFA3220088723D /* BadHabitViewController */,
 				93FC73FF2CDF5E9600F425C6 /* AddHabitViewController.swift */,
@@ -370,6 +704,10 @@
 		93FE11D72CDA816100D674BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93E819B62CF4CB58002D695B /* CalendarView */,
+				93E819B12CF2F49E002D695B /* SegmentCustomView */,
+				930BDA192CE8AECE00915207 /* HeaderCreateView */,
+				934CA1D32CE49D0C0046104F /* GradientView */,
 				938F844F2CE107EA00F74BB4 /* ConnectedArcsView */,
 				931C5CFD2CDE204900D6802F /* TabbarView */,
 				931AA3ED2CDBD1DE002B3FB9 /* NoCopyPasteTextView */,
@@ -380,6 +718,10 @@
 		93FE11D82CDA816A00D674BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9362EAD12CF973A500F38650 /* TimeOfDayModel */,
+				931B08902CE755DB00612781 /* RepeatModel */,
+				931B087F2CE677F300612781 /* SelectIconModel */,
+				934CA1DD2CE4A50C0046104F /* NewHabitModel */,
 				9360ECEE2CDD21490097D38C /* SurveyModel */,
 				93FE12092CDA94AA00D674BC /* OnboardingModel */,
 			);
@@ -477,6 +819,8 @@
 				93FE11ED2CDA880700D674BC /* UIView+Radius.swift */,
 				93E57D932CDBBB740049F41E /* TextField+Extension.swift */,
 				936D7A492CDF6DFA0088723D /* UIView+Corner.swift */,
+				931FC4312CE7CE460033B1C6 /* UIView+Extension.swift */,
+				930BDA212CE8B01500915207 /* BlurEffect+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -501,6 +845,11 @@
 		93FE120C2CDA96B100D674BC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				9362EACC2CF972C900F38650 /* TimeOfDayCell */,
+				930BDA282CE8CF2000915207 /* RepeatTableViewCell */,
+				930BDA232CE8CA3800915207 /* SelectIconCollectionViewCell */,
+				93510D1F2CE83F6E00685403 /* RemindersCustomCell */,
+				934CA1D62CE4A2840046104F /* NewHabitCell */,
 				935060892CDD025F00F62B89 /* SurveyViewCell */,
 				93FE120D2CDA96BB00D674BC /* OnboardingCell */,
 			);
@@ -590,18 +939,35 @@
 				9350608D2CDD028300F62B89 /* SurveyCollectionViewCell.xib in Resources */,
 				936D7A532CDFA3710088723D /* GoodHabitViewController.xib in Resources */,
 				9350607E2CDCC1B100F62B89 /* ForgotPasswordViewController.xib in Resources */,
+				934CA1E22CE4ACF60046104F /* NewHabitCollectionViewCell.xib in Resources */,
 				93FE12152CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.xib in Resources */,
+				93510D182CE83D0D00685403 /* RemindersViewController.xib in Resources */,
 				93FC73F92CDF376000F425C6 /* TimeViewController.xib in Resources */,
 				931C5D012CDE20B500D6802F /* TabbarView.xib in Resources */,
 				93FE11FB2CDA885800D674BC /* LoginViewController.xib in Resources */,
+				93510D232CE83F8700685403 /* RemindersCustomViewTableViewCell.xib in Resources */,
+				9362EAD02CF972F500F38650 /* TimeOfDayTableViewCell.xib in Resources */,
+				930BDA1B2CE8AECE00915207 /* HeaderCreateView.xib in Resources */,
 				93FE11C72CDA5B9300D674BC /* Assets.xcassets in Resources */,
+				931B08992CE7C9B600612781 /* RepeatViewViewController.xib in Resources */,
+				93E819B32CF2F49F002D695B /* CustomSegmentViewCell.xib in Resources */,
+				931024802CF79C7400149B95 /* StartDateViewController.xib in Resources */,
+				93C7A0C52CF95B450052911B /* PerDayTableViewCell.xib in Resources */,
 				93FE11CA2CDA5B9300D674BC /* Base in Resources */,
 				936D7A4E2CDFA3400088723D /* BadHabitViewController.xib in Resources */,
+				93E819BD2CF792EE002D695B /* GoalViewController.xib in Resources */,
 				931C5CFC2CDE1FD900D6802F /* TabbarViewController.xib in Resources */,
+				93E819BA2CF4CBA0002D695B /* CalendarView.xib in Resources */,
+				93E819B52CF2F49F002D695B /* SegmentCustomView.xib in Resources */,
+				93C7A0B52CF952AD0052911B /* TimeView.xib in Resources */,
 				93FE11C52CDA5B9200D674BC /* Base in Resources */,
 				93FE11FF2CDA886A00D674BC /* SignUpViewController.xib in Resources */,
 				93FE12112CDA96D800D674BC /* OnboardingCollectionViewCell.xib in Resources */,
 				93FE12032CDA888D00D674BC /* HomeViewController.xib in Resources */,
+				93C7A0C02CF95AFE0052911B /* PerDayView.xib in Resources */,
+				932FEB392CF2529500A6454A /* RepeatTableViewCell.xib in Resources */,
+				9310247C2CF79AD200149B95 /* TimeOfDayViewController.xib in Resources */,
+				930BDA1F2CE8AFE000915207 /* SelectIconViewController.xib in Resources */,
 				93FC74022CDF5E9600F425C6 /* AddHabitViewController.xib in Resources */,
 				9349FC492CDC41D40048E90B /* GoogleService-Info.plist in Resources */,
 				93FE11E12CDA81EC00D674BC /* SplashViewController.xib in Resources */,
@@ -610,7 +976,10 @@
 				93FC73ED2CDF36F500F425C6 /* MenuViewController.xib in Resources */,
 				93FC73F42CDF375000F425C6 /* BookViewController.xib in Resources */,
 				9360ECEC2CDD1F370097D38C /* QuestionCollectionViewCell.xib in Resources */,
+				938F84542CE367D300F74BB4 /* NewHabitViewController.xib in Resources */,
 				93FE12082CDA8A1700D674BC /* OnboardingViewController.xib in Resources */,
+				93C7A0BB2CF953B40052911B /* TimeTableViewCell.xib in Resources */,
+				930BDA262CE8CA5E00915207 /* SelectIconCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,45 +1032,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930BDA222CE8B01500915207 /* BlurEffect+Extension.swift in Sources */,
 				93FE120B2CDA94CC00D674BC /* OnBoardingModel.swift in Sources */,
 				9350607F2CDCC1B100F62B89 /* ForgotPasswordViewController.swift in Sources */,
 				93FE11F32CDA880700D674BC /* UIBezierPath+createCurve.swift in Sources */,
+				934CA1E32CE4ACF60046104F /* NewHabitCollectionViewCell.swift in Sources */,
+				930BDA272CE8CA5E00915207 /* SelectIconCollectionViewCell.swift in Sources */,
+				93510D172CE83D0D00685403 /* RemindersViewController.swift in Sources */,
 				93FE11C22CDA5B9200D674BC /* ViewController.swift in Sources */,
 				9360ECED2CDD1F370097D38C /* QuestionCollectionViewCell.swift in Sources */,
+				931B08812CE6784400612781 /* SelectIconModel.swift in Sources */,
 				931C5CFB2CDE1FD900D6802F /* TabbarViewController.swift in Sources */,
+				93C7A0BE2CF95AF20052911B /* PerDayView.swift in Sources */,
 				93FE11F22CDA880700D674BC /* Extension-UIAlert.swift in Sources */,
 				93FC73EC2CDF36F500F425C6 /* MenuViewController.swift in Sources */,
+				93E819B42CF2F49F002D695B /* SegmentCustomView.swift in Sources */,
+				93C7A0BA2CF953B40052911B /* TimeTableViewCell.swift in Sources */,
 				93FE11BE2CDA5B9200D674BC /* AppDelegate.swift in Sources */,
 				93FE11C02CDA5B9200D674BC /* SceneDelegate.swift in Sources */,
+				931FC4322CE7CE460033B1C6 /* UIView+Extension.swift in Sources */,
 				93FE12022CDA888D00D674BC /* HomeViewController.swift in Sources */,
+				9362EACF2CF972F500F38650 /* TimeOfDayTableViewCell.swift in Sources */,
 				93FE11F72CDA880700D674BC /* UIView+Radius.swift in Sources */,
 				93FE11EF2CDA880700D674BC /* DefaultStorage.swift in Sources */,
 				9360ECF02CDD21600097D38C /* SurveyModel.swift in Sources */,
 				935060872CDCF92700F62B89 /* SurveyViewController.swift in Sources */,
+				93510D222CE83F8700685403 /* RemindersCustomViewTableViewCell.swift in Sources */,
 				93FE11F12CDA880700D674BC /* Extension-TableViewRegister.swift in Sources */,
+				931B089A2CE7C9B600612781 /* RepeatViewViewController.swift in Sources */,
 				93FC73F82CDF376000F425C6 /* TimeViewController.swift in Sources */,
 				93FE11FE2CDA886A00D674BC /* SignUpViewController.swift in Sources */,
+				930BDA1A2CE8AECE00915207 /* HeaderCreateView.swift in Sources */,
 				9350608C2CDD028300F62B89 /* SurveyCollectionViewCell.swift in Sources */,
 				936D7A4A2CDF6DFA0088723D /* UIView+Corner.swift in Sources */,
+				931B08922CE755F700612781 /* RepeatModel.swift in Sources */,
 				938F844D2CE1070E00F74BB4 /* TimeManager.swift in Sources */,
 				931AA3EC2CDBCFFD002B3FB9 /* Constants.swift in Sources */,
 				931C5CFF2CDE20A000D6802F /* TabbarView.swift in Sources */,
 				93FE11F62CDA880700D674BC /* UIView+Border.swift in Sources */,
 				93FC73FC2CDF377700F425C6 /* StoreViewController.swift in Sources */,
+				931024812CF79C7400149B95 /* StartDateViewController.swift in Sources */,
+				93E819B82CF4CB8C002D695B /* CalendarView.swift in Sources */,
+				93C7A0C42CF95B450052911B /* PerDayTableViewCell.swift in Sources */,
+				930BDA202CE8AFE000915207 /* SelectIconViewController.swift in Sources */,
 				938F84502CE107EA00F74BB4 /* ConnectedArcsView.swift in Sources */,
 				93FE12072CDA8A1700D674BC /* OnboardingViewController.swift in Sources */,
 				93FE11E02CDA81EC00D674BC /* SplashViewController.swift in Sources */,
+				93E819BE2CF792EE002D695B /* GoalViewController.swift in Sources */,
 				93FE11F52CDA880700D674BC /* UIImage+Extension.swift in Sources */,
+				93E819B22CF2F49F002D695B /* CustomSegmentViewCell.swift in Sources */,
+				93C7A0B32CF9529D0052911B /* TimeView.swift in Sources */,
+				932FEB382CF2529500A6454A /* RepeatTableViewCell.swift in Sources */,
 				93FE11FA2CDA885800D674BC /* LoginViewController.swift in Sources */,
 				93FC74012CDF5E9600F425C6 /* AddHabitViewController.swift in Sources */,
 				931AA3EF2CDBD1F1002B3FB9 /* NoCopyPasteTextView.swift in Sources */,
 				936D7A542CDFA3710088723D /* GoodHabitViewController.swift in Sources */,
+				9362EAD32CF973C000F38650 /* TimeOfDayModel.swift in Sources */,
+				9310247D2CF79AD200149B95 /* TimeOfDayViewController.swift in Sources */,
 				93FE11F42CDA880700D674BC /* UIColor+Extension.swift in Sources */,
 				9360ECE92CDD1B4A0097D38C /* SurveyQuestionCollectionViewCell.swift in Sources */,
 				93E57D942CDBBB740049F41E /* TextField+Extension.swift in Sources */,
 				936D7A4F2CDFA3400088723D /* BadHabitViewController.swift in Sources */,
+				938F84552CE367D300F74BB4 /* NewHabitViewController.swift in Sources */,
 				93FC73F32CDF375000F425C6 /* BookViewController.swift in Sources */,
+				934CA1DF2CE4A51F0046104F /* NewHabitModel.swift in Sources */,
 				93FE12142CDA9C6000D674BC /* OnboardingPageControlCollectionViewCell.swift in Sources */,
+				934CA1D52CE49D2F0046104F /* GradientView.swift in Sources */,
 				93FE12102CDA96D800D674BC /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

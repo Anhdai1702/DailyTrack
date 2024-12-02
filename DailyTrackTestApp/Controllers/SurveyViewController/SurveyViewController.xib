@@ -65,18 +65,26 @@
                         <action selector="didTapContinue:" destination="-1" eventType="touchUpInside" id="TSd-9h-UIa"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXy-8O-yDq">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="nnG-mt-viX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="11E-OT-jKM"/>
                 <constraint firstItem="emb-p4-ik5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5MT-F8-FR2"/>
+                <constraint firstItem="xXy-8O-yDq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5R4-31-Emf"/>
                 <constraint firstItem="5vH-9s-fVm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="742-vi-hWV"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nnG-mt-viX" secondAttribute="trailing" id="Ddy-Ax-Dhv"/>
+                <constraint firstAttribute="bottom" secondItem="xXy-8O-yDq" secondAttribute="bottom" id="HCO-PF-jm6"/>
                 <constraint firstAttribute="bottom" secondItem="emb-p4-ik5" secondAttribute="bottom" id="Jr0-pn-P1J"/>
                 <constraint firstItem="KJa-Ld-aBX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="K90-SB-wZd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xXy-8O-yDq" secondAttribute="trailing" id="Yy2-MX-lMd"/>
                 <constraint firstItem="nnG-mt-viX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ZMJ-WN-ILp"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="emb-p4-ik5" secondAttribute="trailing" id="ado-l4-50z"/>
+                <constraint firstItem="xXy-8O-yDq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fDa-1q-I6k"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KJa-Ld-aBX" secondAttribute="bottom" constant="40" id="pJ1-J5-hjy"/>
                 <constraint firstAttribute="bottom" secondItem="nnG-mt-viX" secondAttribute="bottom" id="szq-qL-asJ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KJa-Ld-aBX" secondAttribute="trailing" constant="20" id="tLZ-sZ-fuz"/>

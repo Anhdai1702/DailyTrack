@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NewHabitCollectionViewCell" customModule="DailyTrackTestApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="249" height="245"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="249" height="245"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQi-L3-we8">
+                        <rect key="frame" x="20.000000000000004" y="14" width="35.333333333333343" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cp5-sh-SOz">
+                        <rect key="frame" x="129" y="72.666666666666671" width="100" height="100.00000000000001"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="2x4-1T-ioA"/>
+                            <constraint firstAttribute="width" constant="100" id="6Du-SS-R3S"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.040097268211920528" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Cp5-sh-SOz" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Dut-xP-3WP"/>
+                <constraint firstItem="sQi-L3-we8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="cQU-xa-foO"/>
+                <constraint firstAttribute="trailing" secondItem="Cp5-sh-SOz" secondAttribute="trailing" constant="20" id="eay-GK-j7X"/>
+                <constraint firstItem="sQi-L3-we8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="yxd-0p-nXI"/>
+            </constraints>
+            <size key="customSize" width="249" height="245"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="newHabitImage" destination="Cp5-sh-SOz" id="g5D-jb-Rtc"/>
+                <outlet property="titleNewHabitLabel" destination="sQi-L3-we8" id="yfH-LO-XNr"/>
+            </connections>
+            <point key="canvasLocation" x="281.67938931297709" y="55.985915492957751"/>
+        </collectionViewCell>
+    </objects>
+</document>

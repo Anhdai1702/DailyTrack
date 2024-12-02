@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeOfDayViewController" customModule="DailyTrackTestApp" customModuleProvider="target">
+            <connections>
+                <outlet property="selectTimeLabel" destination="gwl-G5-Kyz" id="MhA-BV-gnD"/>
+                <outlet property="timeOfDayItems" destination="iIA-kz-1du" id="p6w-kg-GYu"/>
+                <outlet property="timeOfdayTableView" destination="IDo-Xc-f2P" id="hBN-x9-KAy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="11m-R6-mbP">
+                    <rect key="frame" x="20" y="112" width="353" height="628"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FK3-7c-U3g">
+                            <rect key="frame" x="20" y="20" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="obb-Ng-abl"/>
+                                <constraint firstAttribute="width" constant="20" id="wjQ-3d-gN3"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="arrow-circle-left"/>
+                            <connections>
+                                <action selector="didTapBack:" destination="-1" eventType="touchUpInside" id="KCs-bh-Kbb"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u9h-Vr-Ekq">
+                            <rect key="frame" x="20" y="60" width="313" height="160"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIA-kz-1du">
+                                    <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="createNewHabit_timeOfDay" translatesAutoresizingMaskIntoConstraints="NO" id="EHt-73-0wc">
+                                            <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="18q-Lp-8TJ"/>
+                                                <constraint firstAttribute="width" constant="20" id="K1f-3o-24r"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="EHt-73-0wc" firstAttribute="centerY" secondItem="iIA-kz-1du" secondAttribute="centerY" id="0Go-Fp-hBU"/>
+                                        <constraint firstAttribute="height" constant="40" id="Su1-SE-bZK"/>
+                                        <constraint firstItem="EHt-73-0wc" firstAttribute="centerX" secondItem="iIA-kz-1du" secondAttribute="centerX" id="U9b-gj-20V"/>
+                                        <constraint firstAttribute="width" constant="40" id="uQh-fS-48q"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time of day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx4-R9-wwN">
+                                    <rect key="frame" x="70" y="20" width="67" height="14.333333333333336"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwl-G5-Kyz">
+                                    <rect key="frame" x="70" y="38" width="56.666666666666657" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="IDo-Xc-f2P">
+                                    <rect key="frame" x="20" y="80" width="273" height="70"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.040562913907284767" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="gwl-G5-Kyz" firstAttribute="bottom" secondItem="iIA-kz-1du" secondAttribute="bottom" constant="-5" id="3Ix-Nu-NnZ"/>
+                                <constraint firstItem="gx4-R9-wwN" firstAttribute="leading" secondItem="iIA-kz-1du" secondAttribute="trailing" constant="10" id="6Lz-6Q-YcN"/>
+                                <constraint firstItem="iIA-kz-1du" firstAttribute="leading" secondItem="u9h-Vr-Ekq" secondAttribute="leading" constant="20" id="7ci-5Q-lmr"/>
+                                <constraint firstAttribute="height" constant="160" id="DHm-Nu-cPn"/>
+                                <constraint firstItem="gx4-R9-wwN" firstAttribute="top" secondItem="iIA-kz-1du" secondAttribute="top" id="G0g-CC-Foq"/>
+                                <constraint firstItem="iIA-kz-1du" firstAttribute="top" secondItem="u9h-Vr-Ekq" secondAttribute="top" constant="20" id="N2B-5z-iFB"/>
+                                <constraint firstAttribute="trailing" secondItem="IDo-Xc-f2P" secondAttribute="trailing" constant="20" id="NoQ-fz-hK9"/>
+                                <constraint firstItem="IDo-Xc-f2P" firstAttribute="top" secondItem="iIA-kz-1du" secondAttribute="bottom" constant="20" id="duI-Ac-jsu"/>
+                                <constraint firstItem="IDo-Xc-f2P" firstAttribute="leading" secondItem="u9h-Vr-Ekq" secondAttribute="leading" constant="20" id="f04-GE-B8X"/>
+                                <constraint firstAttribute="bottom" secondItem="IDo-Xc-f2P" secondAttribute="bottom" constant="10" id="pke-kH-YjH"/>
+                                <constraint firstItem="gwl-G5-Kyz" firstAttribute="leading" secondItem="iIA-kz-1du" secondAttribute="trailing" constant="10" id="sDi-rH-6Mf"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.08235294118" green="0.08235294118" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="u9h-Vr-Ekq" firstAttribute="top" secondItem="FK3-7c-U3g" secondAttribute="bottom" constant="20" id="TK8-pT-qpb"/>
+                        <constraint firstAttribute="trailing" secondItem="u9h-Vr-Ekq" secondAttribute="trailing" constant="20" id="aqA-fV-bqe"/>
+                        <constraint firstItem="FK3-7c-U3g" firstAttribute="leading" secondItem="11m-R6-mbP" secondAttribute="leading" constant="20" id="uRi-y8-YwA"/>
+                        <constraint firstItem="u9h-Vr-Ekq" firstAttribute="leading" secondItem="11m-R6-mbP" secondAttribute="leading" constant="20" id="zUZ-A2-Ril"/>
+                        <constraint firstItem="FK3-7c-U3g" firstAttribute="top" secondItem="11m-R6-mbP" secondAttribute="top" constant="20" id="zX4-Qr-bS3"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baO-5e-ZSa">
+                    <rect key="frame" x="319" y="755" width="54" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="DtA-bQ-14v"/>
+                        <constraint firstAttribute="width" constant="54" id="O5J-ra-cAB"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="newHabit_close"/>
+                    <buttonConfiguration key="configuration" style="plain" image="newHabit_close"/>
+                    <connections>
+                        <action selector="didTapClose:" destination="-1" eventType="touchUpInside" id="HgC-9y-uhd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="11m-R6-mbP" secondAttribute="trailing" constant="20" id="FYb-zn-bnW"/>
+                <constraint firstItem="11m-R6-mbP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="53" id="Vbf-XA-Fbl"/>
+                <constraint firstItem="baO-5e-ZSa" firstAttribute="top" secondItem="11m-R6-mbP" secondAttribute="bottom" constant="15" id="c9o-LI-KbI"/>
+                <constraint firstAttribute="bottom" secondItem="11m-R6-mbP" secondAttribute="bottom" constant="112" id="gqX-Vn-26e"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="baO-5e-ZSa" secondAttribute="trailing" constant="20" id="qFZ-V6-fY7"/>
+                <constraint firstItem="11m-R6-mbP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="uNX-Rh-eVt"/>
+            </constraints>
+            <point key="canvasLocation" x="32.824427480916029" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow-circle-left" width="24" height="24"/>
+        <image name="createNewHabit_timeOfDay" width="20" height="20"/>
+        <image name="newHabit_close" width="54" height="54"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

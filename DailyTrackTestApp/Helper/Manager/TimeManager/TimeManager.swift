@@ -109,17 +109,17 @@ class TimeManager {
     var timeString = ""
     
     if hours > 0 {
-      timeString += "\(hours) " + "hour".localized() + "\(hours > 1 ? "s-many".localized() : "")"
+      timeString += "\(hours) " + "hour" + "\(hours > 1 ? "s-many" : "")"
     }
     
     if minutes > 0 {
       if !timeString.isEmpty {
         timeString += " "
       }
-      timeString += "\(minutes) " +  "minute".localized() + "\(minutes > 1 ? "s-many".localized() : "")"
+      timeString += "\(minutes) " +  "minute" + "\(minutes > 1 ? "s-many" : "")"
     }
     if hours == 0 && minutes == 0 {
-      return "break-time-0-minute".localized()
+      return "break-time-0-minute"
     }
     return timeString
   }
@@ -152,7 +152,7 @@ class TimeManager {
           7: "July", 8: "August", 9: "September", 10: "October", 11: "November", 12: "December"
       ]
       
-    return monthNames[month]?.localized()
+      return monthNames[month]
   }
 
   func createDateArray(from startDate: Date, to endDate: Date) -> [Date] {

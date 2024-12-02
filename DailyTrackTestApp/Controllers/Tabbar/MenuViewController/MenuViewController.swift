@@ -1,6 +1,6 @@
 //
 //  MenuViewController.swift
-//  DailyTrackTestApp
+//  DailyTrackTestApp   
 //
 //  Created by Phùng Anh Đài  on 9/11/24.
 //
@@ -156,7 +156,6 @@ extension HomeViewController : FSCalendarDelegateAppearance {
         let calendar = Calendar.current
         let currentMonth = calendar.component(.month, from: Date())
         let dateMonth = calendar.component(.month, from: date)
-        
         // Check if the date is in the current month
         if currentMonth == dateMonth {
             return UIColor.white // Color for days in the current month
@@ -164,7 +163,5 @@ extension HomeViewController : FSCalendarDelegateAppearance {
             return UIColor.clear/*UIColor(resource: .calendarDayOtherMonth)*/ // Color for days in other months
         }
     }
-    
-    
 }
 
