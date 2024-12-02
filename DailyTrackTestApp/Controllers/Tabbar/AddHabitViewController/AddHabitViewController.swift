@@ -24,12 +24,12 @@ class AddHabitViewController: UIViewController {
 extension AddHabitViewController {
     
     @IBAction func didTapBadHabit(_ sender: Any) {
-        let vc = BadHabitViewController()
+        let vc = NewHabitViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func didTapGoodHabit(_ sender: Any) {
-        let vc = GoodHabitViewController()
+        let vc = NewHabitViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

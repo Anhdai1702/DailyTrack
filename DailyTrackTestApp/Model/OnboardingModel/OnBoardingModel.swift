@@ -17,17 +17,17 @@ struct OnboardingSlide {
 
 extension OnboardingSlide {
   static let allSlides: [OnboardingSlide] = [
-    OnboardingSlide(title: "Develop good habits".localized(),
-                    description: "You’re taking the first step in changing your life. Let us guide you through it.".localized(),
+    OnboardingSlide(title: "Develop good habits",
+                    description: "You’re taking the first step in changing your life. Let us guide you through it.",
                     imageName: "onboarding1"),
-    OnboardingSlide(title: "Track your progress".localized(),
-                    description: "You’re taking the first step in changing your life. Let us guide you through it.".localized(),
+    OnboardingSlide(title: "Track your progress",
+                    description: "You’re taking the first step in changing your life. Let us guide you through it.",
                     imageName: "onboarding2"),
-    OnboardingSlide(title: "Break bad habits".localized(),
-                    description: "Habits are fundamental part of our life. Make the most of your life!".localized(),
+    OnboardingSlide(title: "Break bad habits",
+                    description: "Habits are fundamental part of our life. Make the most of your life!",
                     imageName: "onboarding3"),
-    OnboardingSlide(title: "Challenge your friends".localized(),
-                    description: "Habits are fundamental part of our life. Make the most of your life!".localized(),
+    OnboardingSlide(title: "Challenge your friends",
+                    description: "Habits are fundamental part of our life. Make the most of your life!",
                     imageName: "onboarding4")
   ]
 }
